@@ -64,4 +64,13 @@ let per23_a = -100;
 let per23_b = 1;
 alert('Отрицательное: ' + per23_a + ' ' +
     'Положительное с - впереди: ' + -per23_b);
-// глава 24
+// глава 25
+let per25_a = 13;
+let per25_b = 5;
+alert(per25_a % per25_b);
+// глава 26
+let per26_a = 2;
+alert(per26_a ** 10);
+// глава 28
+let per28_name_fname = 'Киселев Максим';
+alert(per28_name_fname);
