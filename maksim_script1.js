@@ -59,3 +59,9 @@ alert(per18_4result);
 let per22_a = 1.5;
 let per22_b = 0.75;
 alert(per22_a+per22_b);
+// глава 23
+let per23_a = -100;
+let per23_b = 1;
+alert('Отрицательное: ' + per23_a + ' ' +
+    'Положительное с - впереди: ' + -per23_b);
+// глава 24
