@@ -37,3 +37,22 @@ alert('Сумма: ' + sumpe18_1 + ' ' +
     'Разность: ' + diff18_1 + ' ' +
     'Произведение: ' + comp18_1 + ' ' +
     'Частное: ' + divis18_1);
+
+let per18_2a = 10;
+let per18_2d = 5;
+let result;
+alert(result = per18_2a + per18_2d);
+
+let per18_3a = 1;
+let per18_3b = 2;
+let per18_3c = 3;
+let sum18_3;
+alert(sum18_3 = per18_3a + per18_3b + per18_3c)
+
+let per18_4a = 10;
+let per18_4b = 5;
+let per18_4c = per18_4a - per18_4b;
+let per18_4d = 7;
+let per18_4result = per18_4d + per18_4c;
+alert(per18_4result);
+
