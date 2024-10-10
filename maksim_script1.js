@@ -55,4 +55,5 @@ let per18_4c = per18_4a - per18_4b;
 let per18_4d = 7;
 let per18_4result = per18_4d + per18_4c;
 alert(per18_4result);
+// глава 22
 
