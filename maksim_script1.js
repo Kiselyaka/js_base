@@ -22,3 +22,18 @@ alert(a); // выведет 1
 
 a = 20;    // записываем теперь значение 2, затирая значение 1
 alert(a); 
+// глава 17
+let sum17 = 1+2+3;
+alert(sum17);
+// глава 18
+let per18_a = 10;
+let per18_b = 2;
+let sumpe18_1 = per18_a + per18_b;
+let diff18_1 = per18_a - per18_b;
+let comp18_1 = per18_a * per18_b;
+let divis18_1 = per18_a / per18_b;
+//alert(diff18_1 + '' + comp18_1 + '' + sumpe18_1 + '' + diff18_1);
+alert('Сумма: ' + sumpe18_1 + ' ' +
+    'Разность: ' + diff18_1 + ' ' +
+    'Произведение: ' + comp18_1 + ' ' +
+    'Частное: ' + divis18_1);
