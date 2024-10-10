@@ -56,4 +56,6 @@ let per18_4d = 7;
 let per18_4result = per18_4d + per18_4c;
 alert(per18_4result);
 // глава 22
-
+let per22_a = 1.5;
+let per22_b = 0.75;
+alert(per22_a+per22_b);
