@@ -74,3 +74,15 @@ alert(per26_a ** 10);
 // глава 28
 let per28_name_fname = 'Киселев Максим';
 alert(per28_name_fname);
+// глава 29
+let per29_1 = '!!!';
+alert(per29_1);
+let per29_java = 'java';
+let per29_script = 'script';
+alert(per29_java + per29_script);
+let per29_hello = 'hello';
+let per29_world = 'world';
+alert(per29_hello + " " + per29_world);
+// глава 30
+let per30_primer = 'bim-bim';
+alert('Количество строк в переменной: ' + per30_primer.length);
