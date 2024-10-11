@@ -182,3 +182,7 @@ alert(per_47a2 + per_47b2);
 let per_47a3 = parseFloat('5.5px');
 let per_47b3 = parseFloat('6.25px');
 alert(per_47a3 + per_47b3 + 'px');
+// глава 48
+let per_48a1 = 120;
+let per_48b1 = 240;
+alert(String(per_48a1) + String(per_48b1));
