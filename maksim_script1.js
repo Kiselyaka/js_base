@@ -100,3 +100,6 @@ alert(str_res_32);
 // глава 34
 let per_34;
 alert(per_34);
+// глава 35
+let per_35 = null;
+alert(per_35);
