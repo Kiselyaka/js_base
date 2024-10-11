@@ -120,3 +120,11 @@ let per_39_1 = 18;
 let [per_39_2a, per_39_2b, per_39_2c] = [1, 2, 3];
 console.log(per_39_1);
 console.log(per_39_2a, per_39_2b, per_39_2c);
+// глава 40
+console.log(123);               // число
+console.log('Hello, world!');   // строка
+console.log(true);              // булевое
+console.log(null);              // Null
+console.log(undefined);         // Undefined
+console.log({});                // пустой объект
+console.log([]);                // массив
