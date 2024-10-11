@@ -103,3 +103,8 @@ alert(per_34);
 // глава 35
 let per_35 = null;
 alert(per_35);
+// глава 36
+let per_36_true = true;
+let per_36_false = false;
+alert('Переменная со значением true: ' + per_36_true
+    +' Переменная со значением false: ' + per_36_false);
