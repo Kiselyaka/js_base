@@ -108,3 +108,7 @@ let per_36_true = true;
 let per_36_false = false;
 alert('Переменная со значением true: ' + per_36_true
     +' Переменная со значением false: ' + per_36_false);
+// глава 37
+let str1_37 = 'abc';
+let str2_37 = 'def';
+alert(str1_37 * str2_37);
