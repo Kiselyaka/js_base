@@ -87,8 +87,13 @@ alert(per29_hello + " " + per29_world);
 let per30_primer = 'bim-bim';
 alert('Количество строк в переменной: ' + per30_primer.length);
 // глава 31 
-let str1 = 'xxx';
-let str2 = 'yyy';
-let txt  = `aaa ${str1} bbb ${str2} ccc`;
-alert(txt);
+let str1_31 = 'xxx';
+let str2_31 = 'yyy';
+let txt_31  = `aaa ${str1_31} bbb ${str2_31} ccc`;
+alert(txt_31);
 // глава 32
+let str_res_32 = `a
+b
+c
+`;
+alert(str_res_32);
