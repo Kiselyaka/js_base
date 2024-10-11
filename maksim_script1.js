@@ -170,3 +170,15 @@ alert( '2' + Number('3') );
 let a_45 = +'2';
 let b_45 = +'3';
 alert(a_45 + b_45); 
+// глава 47
+let per_47a1 = parseFloat('5px');
+let per_47b1 = parseFloat('6px');
+alert(per_47a1 + per_47b1);
+
+let per_47a2 = parseFloat('5.5px');
+let per_47b2 = parseFloat('6.25px');
+alert(per_47a2 + per_47b2);
+
+let per_47a3 = parseFloat('5.5px');
+let per_47b3 = parseFloat('6.25px');
+alert(per_47a3 + per_47b3 + 'px');
