@@ -115,3 +115,8 @@ alert(str1_37 * str2_37);
 // глава 38
 alert(10 / 0);
 alert(-10 / 0);
+// глава 39 
+let per_39_1 = 18;
+let [per_39_2a, per_39_2b, per_39_2c] = [1, 2, 3];
+console.log(per_39_1);
+console.log(per_39_2a, per_39_2b, per_39_2c);
