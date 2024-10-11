@@ -128,3 +128,11 @@ console.log(null);              // Null
 console.log(undefined);         // Undefined
 console.log({});                // пустой объект
 console.log([]);                // массив
+// глава 41
+alert(er_for41);
+// глава 42
+const PI = 3.14;
+let radius_for41 = 2;
+let per_lenth42 = PI * radius_for41 ** 2;
+alert(per_lenth42);
+
