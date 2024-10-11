@@ -97,3 +97,6 @@ b
 c
 `;
 alert(str_res_32);
+// глава 34
+let per_34;
+alert(per_34);
