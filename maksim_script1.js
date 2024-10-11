@@ -112,3 +112,6 @@ alert('Переменная со значением true: ' + per_36_true
 let str1_37 = 'abc';
 let str2_37 = 'def';
 alert(str1_37 * str2_37);
+// глава 38
+alert(10 / 0);
+alert(-10 / 0);
