@@ -214,3 +214,17 @@ alert(str54[str54.length - 1] + ' ' + str54[str54.length - 2] + ' ' + str54[str5
 // глава 55
 let str55 = '12345';
 alert(Number(str55[0]) + Number(str55[1]) + Number(str55[2]) + Number(str55[3]) + Number(str55[4]));
+// глава 56
+let num56 = String(12345);
+alert(Number(num56[0]) + Number(num56[1]) + Number(num56[2]) + Number(num56[3]) + Number(num56[4]));
+
+alert((num56[0]) * (num56[1]) * (num56[2]) * (num56[3]) * (num56[4]));
+
+alert((num56[4]) + (num56[3]) + (num56[2]) + (num56[1]) + (num56[0]));
+// глава 58
+let num_58 = 47;
+num_58 += 7;
+num_58 -= 18;
+num_58 *= 10;
+num_58 /= 15;
+alert(num_58);
