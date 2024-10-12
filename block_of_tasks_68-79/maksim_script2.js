@@ -62,3 +62,9 @@ let arr74_2 = [1, 2, 3];
 arr74_2[3] = 4;
 arr74_2[4] = 5;
 console.log(arr74_2);
+// глава 75
+let arr75 = [];
+
+arr75[3] = 'a';
+arr75[8] = 'b';
+console.log(arr75.length);
