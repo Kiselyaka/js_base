@@ -208,3 +208,9 @@ alert(str52_2[num_contstr_52_2e] + ' ' + str52_2[num_contstr_52_2d] + ' ' + str5
 let str52_3 = 'abcde';
 let number_str52_3 = 2;
 alert(str52_3[number_str52_3]);
+// глава 54
+let str54 = 'abobus';
+alert(str54[str54.length - 1] + ' ' + str54[str54.length - 2] + ' ' + str54[str54.length - 3]);
+// глава 55
+let str55 = '12345';
+alert(Number(str55[0]) + Number(str55[1]) + Number(str55[2]) + Number(str55[3]) + Number(str55[4]));
