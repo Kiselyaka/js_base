@@ -186,3 +186,14 @@ alert(per_47a3 + per_47b3 + 'px');
 let per_48a1 = 120;
 let per_48b1 = 240;
 alert(String(per_48a1) + String(per_48b1));
+// глава 49
+let per49_1 = 12345;
+alert(String(per49_1).length);
+
+let per49_2a = 873;
+let per49_2b = 4326;
+let str49_2a = String(per49_2a); 
+let str49_2b = String(per49_2b);
+
+alert(str49_2a.length + str49_2b.length);
+ 
