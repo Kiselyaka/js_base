@@ -29,3 +29,10 @@ console.log(arr70_1.length);
 
 let arr70_2 = [3, 4, 5, 'haha', '7', 'abobus'];
 console.log(arr70_2[arr70_2.length - 1]);
+// глава 71
+let arr71 = ['a', 'b', 'c'];
+arr71[0] = '1';
+arr71[1] = '2';
+arr71[2] = '3';
+console.log(arr71);
+
