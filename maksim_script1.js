@@ -196,4 +196,15 @@ let str49_2a = String(per49_2a);
 let str49_2b = String(per49_2b);
 
 alert(str49_2a.length + str49_2b.length);
- 
+// глава 52
+let str52_1 = 'abcde';
+let [ num_contstr_52a, num_contstr_52c, num_contstr_52e ]= [0, 2, 4];
+alert(str52_1[num_contstr_52a] + ' ' + str52_1[num_contstr_52c] + ' ' + str52_1[num_contstr_52e]);
+
+let str52_2 = 'abcde';
+let [num_contstr_52_2a, num_contstr_52_2b, num_contstr_52_2c, num_contstr_52_2d, num_contstr_52_2e] = [0, 1, 2, 3, 4];
+alert(str52_2[num_contstr_52_2e] + ' ' + str52_2[num_contstr_52_2d] + ' ' + str52_2[num_contstr_52_2c]+ ' ' + str52_2[num_contstr_52_2b] + ' ' + str52_2[num_contstr_52_2a]);
+
+let str52_3 = 'abcde';
+let number_str52_3 = 2;
+alert(str52_3[number_str52_3]);
