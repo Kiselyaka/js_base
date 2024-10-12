@@ -113,8 +113,10 @@ let str1_37 = 'abc';
 let str2_37 = 'def';
 alert(str1_37 * str2_37);
 // глава 38
-alert(10 / 0);
-alert(-10 / 0);
+
+//alert(10 / 0);
+//alert(-10 / 0);
+
 // глава 39 
 let per_39_1 = 18;
 let [per_39_2a, per_39_2b, per_39_2c] = [1, 2, 3];
@@ -129,7 +131,10 @@ console.log(undefined);         // Undefined
 console.log({});                // пустой объект
 console.log([]);                // массив
 // глава 41
-alert(er_for41);
+
+//alert(er_for41);
+//проверил,работает - выдает ошибку
+
 // глава 42
 const PI = 3.14;
 let radius_for41 = 2;
@@ -251,3 +256,20 @@ alert('Площадь квадрата равна: ' + (side_63 ** 2)  );
 let height_63 = Number(prompt('Введите значение высоты прямоугольника?'));
 let width_63 = Number(prompt('Введите значение ширины прямоугольника?'));
 alert('Площадь прямоугольника равна: ' + (height_63 * width_63));
+// глава 64
+let str64_1 = 'bim-bim';
+document.write('<b>' + str + '</b>');
+
+let str64_2 = 'bom-bom';
+document.write('<i>' + str64_2 + '</i>');
+
+let str64_3 = 'text';
+document.write('<i>' + str64_3 + '</i>');
+
+document.write('1<br>');
+document.write('2<br>');
+document.write('3<br>');
+document.write('4<br>');
+document.write('5<br>');
+
+// глава 65
