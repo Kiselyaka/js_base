@@ -35,4 +35,17 @@ arr71[0] = '1';
 arr71[1] = '2';
 arr71[2] = '3';
 console.log(arr71);
+// глава 72
+let arr_72 = [1, 2, 3];
 
+arr_72[0] += 3;
+arr_72[1] += 3;
+arr_72[2] += 3;
+
+console.log(arr_72);
+// глава 73
+let arr_73 = [1, 2, 3];
+arr_73[0]++;
+++arr_73[1];
+arr_73[2]++;
+console.log(arr_73);
