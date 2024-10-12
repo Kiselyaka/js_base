@@ -23,3 +23,9 @@ alert(arr69_3[0] + arr69_3[1] + arr69_3[2]);
 
 let arr69_4 = ['a', 'b', 'c', 'd'];
 alert(String(arr69_4[0] + '+' + arr69_4[1] + '+' + arr69_4[2] + '+' + arr69_4[3]));
+// глава 70
+let arr70_1 = [1, 3, 4, 67, '2', 'aboba'];
+console.log(arr70_1.length);
+
+let arr70_2 = [3, 4, 5, 'haha', '7', 'abobus'];
+console.log(arr70_2[arr70_2.length - 1]);
