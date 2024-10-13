@@ -65,3 +65,9 @@ obj85.x = 1**2;
 obj85.y = 2**2;
 obj85.z = 3**2;
 console.log(obj85);
+// глава 86
+let obj86 = {};
+obj86.a = 1;
+obj86.b = 2;
+obj86.c = 3;
+console.log(obj86);
