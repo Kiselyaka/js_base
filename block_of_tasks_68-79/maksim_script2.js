@@ -89,3 +89,11 @@ let arr77_2 = [1, 2, 3, 4, 5];
 let key1_77 = 1;
 let key2_77 = 2;
 console.log(arr77_2[key1_77] + arr77_2[key2_77]);
+// глава 78
+let arr78 = ['a', 'b', 'c', 'd', 'e'];
+alert(arr78.length);
+console.log(arr78);
+delete arr78[1];
+delete arr78[3];
+console.log(arr78);
+alert(arr78.length);
