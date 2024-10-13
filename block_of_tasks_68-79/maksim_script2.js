@@ -59,6 +59,7 @@ arr74_1[2] = 3;
 console.log(arr74_1);
 
 let arr74_2 = [1, 2, 3];
+
 arr74_2[3] = 4;
 arr74_2[4] = 5;
 console.log(arr74_2);
@@ -68,3 +69,14 @@ let arr75 = [];
 arr75[3] = 'a';
 arr75[8] = 'b';
 console.log(arr75.length);
+// глава 76
+let arr76_1 = [];
+arr76_1.push(1);
+arr76_1.push(2);
+arr76_1.push(3);
+console.log(arr76_1);
+
+let arr76_2 = [1, 2, 3];
+arr76_2.push(4);
+arr76_2.push(5);
+console.log(arr76_2);
