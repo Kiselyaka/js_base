@@ -97,3 +97,32 @@ delete arr78[1];
 delete arr78[3];
 console.log(arr78);
 alert(arr78.length);
+// 79
+/*
+Код должен вывести последний элемент массива:
+let arr = [1, 2, 3, 4, 5];
+console.log(arr[arr.length]);
+*/
+let arr79_1 = [1, 2, 3, 4, 5];
+console.log(arr79_1[arr79_1.length - 1]);
+/*
+Код должен найти сумму элементов массива:
+let arr = [1, 2, 3, 4, 5];
+console.log(arr[1] + arr[2] + arr[3] + arr[4] + arr[5]);
+*/
+let arr79_2 = [1, 2, 3, 4, 5];
+console.log(arr79_2[0] + arr79_2[1] + arr79_2[2] + arr79_2[3] + arr79_2[4]);
+/*
+Код должен вывести длину массива:
+let arr = {1, 2, 3, 4, 5};
+console.log(arr.length]);
+*/
+let arr79_3 = [1, 2, 3, 4, 5];
+console.log(arr79_3.length);
+/*
+Код должен вывести длину массива:
+let arr = [1, 2, 3, 4, 5];
+console.log(arr.lenght);
+*/
+let arr79_4 = [1, 2, 3, 4, 5];
+console.log(arr79_4.length);
