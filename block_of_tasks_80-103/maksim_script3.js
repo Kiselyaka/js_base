@@ -71,3 +71,7 @@ obj86.a = 1;
 obj86.b = 2;
 obj86.c = 3;
 console.log(obj86);
+// глава 87
+let obj87 = {7: 'a', 50: 'b', 23: 'c'};
+console.log(obj87[7], obj87[23], obj87[50]);
+console.log(obj87[7], obj87[50], obj87[23]);
