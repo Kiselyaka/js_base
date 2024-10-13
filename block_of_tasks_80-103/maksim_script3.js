@@ -59,3 +59,9 @@ console.log(obj_84.b2);
 console.log(obj_84['с-с']);
 console.log(obj_84['d 4']);
 console.log(obj_84.e5);
+// глава 85
+let obj85 = {x: 1, y: 2, z: 3};
+obj85.x = 1**2;
+obj85.y = 2**2;
+obj85.z = 3**2;
+console.log(obj85);
