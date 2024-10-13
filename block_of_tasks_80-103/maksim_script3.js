@@ -75,3 +75,7 @@ console.log(obj86);
 let obj87 = {7: 'a', 50: 'b', 23: 'c'};
 console.log(obj87[7], obj87[23], obj87[50]);
 console.log(obj87[7], obj87[50], obj87[23]);
+// глава 88
+let obj88 = {x: 1, y: 2, z: 3};
+let keys88 = Object.keys(obj88);
+console.log(keys88);
