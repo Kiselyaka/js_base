@@ -80,3 +80,12 @@ let arr76_2 = [1, 2, 3];
 arr76_2.push(4);
 arr76_2.push(5);
 console.log(arr76_2);
+// глава 77
+let arr77_1 = ['a', 'b', 'c'];
+let key77_1 = 2;
+console.log(arr77_1[key77_1]);
+
+let arr77_2 = [1, 2, 3, 4, 5];
+let key1_77 = 1;
+let key2_77 = 2;
+console.log(arr77_2[key1_77] + arr77_2[key2_77]);
