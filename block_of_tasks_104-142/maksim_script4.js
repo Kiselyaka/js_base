@@ -28,3 +28,11 @@ if (per106 == 0) {
 } else {
 	console.log('---'); // сработает это
 }
+// глава 107
+let test107 = 9;
+
+if (test107 != 0) {
+	console.log('+++');
+} else {
+	console.log('---'); // сработает это
+}
