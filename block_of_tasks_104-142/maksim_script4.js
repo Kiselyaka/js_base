@@ -61,3 +61,11 @@ if (test1_109a_2 == test2_109b_2) {
 } else {
 	console.log('строки не равны'); 
 }
+// глава 110
+let test1_110a_2 = '123';
+let test2_110b_2 = 123;
+if (test1_110a_2 == test2_110b_2) {
+	console.log('число и строка равны');
+} else {
+	console.log('число и строка не равны'); 
+}
