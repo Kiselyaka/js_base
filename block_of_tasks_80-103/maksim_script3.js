@@ -383,3 +383,22 @@ console.log(arr2);
 */
 
 //Ответ: ["b", 2, 3]
+// глава 102
+const arr102 = [1, 2, 3, 4, 5];
+const res102 = arr102[1] + arr102[2];
+
+console.log(res102);
+// глава 103
+let obj103_1 = {x: 1, y: 2, z: 3};
+console.log(obj103_1['x']);
+
+let obj103_2 = {x: 1, y: 2, z: 3};
+let key103_2 = 'x';
+console.log(obj103_2[key103_2]);
+
+let obj103_3 = {x: 1, y: 2, z: 3};
+let sum103 = obj103_3['x'] + obj103_3['y'] + obj103_3['z'];
+console.log(sum103);
+
+let obj104 = {x: 1, y: 2, z: 3};
+console.log(Object.keys(obj104).length);
