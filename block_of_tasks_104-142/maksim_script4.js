@@ -53,3 +53,11 @@ if (test1_108a_2 == test2_108b_2) {
 } else {
 	console.log('значения не равны'); 
 }
+// глава 109
+let test1_109a_2 = 'abc';
+let test2_109b_2 = 'abc';
+if (test1_109a_2 == test2_109b_2) {
+	console.log('строки равны');
+} else {
+	console.log('строки не равны'); 
+}
