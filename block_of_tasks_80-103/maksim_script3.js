@@ -260,3 +260,58 @@ console.log( typeof obj['x'] );
 */
 
 //Ответ: number
+
+// глава 97
+
+/*
+№1⊗jsPmObAAO
+
+Не запуская код, определите, что выведется на экран в консоль:
+
+console.log( typeof {x: 1, y: 2, z: 3} );
+*/
+
+//Ответ: object
+
+/*
+№2⊗jsPmObAAO
+
+Не запуская код, определите, что выведется в консоль:
+
+console.log( typeof [1, 2, 3] );
+*/
+
+//Ответ: object
+
+/*
+№3⊗jsPmObAAO
+
+Не запуская код, определите, что выведется в консоль:
+
+let arr = [1, 2, 3];
+console.log( typeof arr );
+*/
+
+//Ответ: object
+
+/*
+№4⊗jsPmObAAO
+
+Не запуская код, определите, что выведется в консоль:
+
+let arr = [1, 2, 3];
+console.log( typeof arr[0] );
+*/
+
+//Ответ: number
+
+/*
+№5⊗jsPmObAAO
+
+Не запуская код, определите, что выведется в консоль:
+
+let arr = ['1', '2', '3'];
+console.log( typeof arr[0] );
+*/
+
+//Ответ: string
