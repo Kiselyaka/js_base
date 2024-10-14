@@ -192,3 +192,29 @@ let key2_93 = 'y';
 let key3_93 = 'z';
 
 console.log(obj93_2);
+// глава 94
+
+/*
+№1⊗jsPmObOI
+
+Скажите, что выведется в консоль в результате выполнения следующего кода:
+
+let obj = {x: 1, y: 2, z: 3};
+
+console.log('x' in obj);
+console.log('w' in obj);
+Ответ: выведет true
+	   вывелет false
+*/
+// глава 95
+/*
+№1⊗jsPmObOD
+
+Скажите, что выведется в консоль в результате выполнения следующего кода:
+
+let obj = {x: 1, y: 2, z: 3};
+delete obj.x;
+
+console.log('x' in obj);
+Ответ: false
+*/
