@@ -82,3 +82,7 @@ console.log(keys88);
 // глава 89
 let obj89 = {x: 1, y: 2, z: 3};
 console.log(Object.keys(obj89).length);
+// глава 90
+let obj90 = {x: 1, y: 2, z: 3};
+key90 = 'x';
+console.log(obj90[key90]);
