@@ -111,3 +111,31 @@ let obj91_2 = {x: 1, y: 2, z: 3};
 let key91_2 = 'x';
 console.log(obj91_2[key91_2]);
 // глава 92
+/*№1⊗jsPmObPAM
+
+Исправьте ошибку, допущенную в следующем коде:
+
+let obj = {x: 1, y: 2, z: 3};
+
+let prop = 'x';
+console.log(obj.prop);
+*/
+
+let obj92_1 = {x: 1, y: 2, z: 3};
+let prop92_1 = 'x';
+console.log(obj92_1.prop92_1);
+
+/*
+№2⊗jsPmObPAM
+
+Исправьте ошибку, допущенную в следующем коде:
+
+let obj = {x: 1, y: 2, z: 3};
+
+let prop = 'x';
+console.log(obj['prop']);
+*/
+
+let obj92_2 = {x: 1, y: 2, z: 3};
+let prop92_2 = 'x';
+console.log(obj92_2[prop92_2]);
