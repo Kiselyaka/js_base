@@ -86,6 +86,7 @@ console.log(Object.keys(obj89).length);
 let obj90 = {x: 1, y: 2, z: 3};
 key90 = 'x';
 console.log(obj90[key90]);
+
 // глава 91
 /*
 №1⊗jsPmObEAM
@@ -110,6 +111,7 @@ console.log(obj['key']);
 let obj91_2 = {x: 1, y: 2, z: 3};
 let key91_2 = 'x';
 console.log(obj91_2[key91_2]);
+
 // глава 92
 /*№1⊗jsPmObPAM
 
@@ -139,3 +141,54 @@ console.log(obj['prop']);
 let obj92_2 = {x: 1, y: 2, z: 3};
 let prop92_2 = 'x';
 console.log(obj92_2[prop92_2]);
+// глава 93
+/*
+№1⊗jsPmObCP
+
+В следующем коде ключ должен был взяться из переменной. Исправьте допущенную ошибку:
+
+let key = 'x';
+
+let obj = {
+	key: 1,
+	y: 2,
+	z: 3
+};
+*/
+let key93_1 = 'x';
+
+let obj93_1 = {
+    [key93_1]: 1, 
+    y: 2,
+    z: 3
+};
+console.log(obj93_1); 
+
+/*
+№2⊗jsPmObCP
+
+Дан объект:
+
+let obj = {
+	x: 1,
+	y: 2,
+	z: 3
+};
+Даны переменные:
+
+let key1 = 'x';
+let key2 = 'y';
+let key3 = 'z';
+Сделайте так, чтобы ключи объекта брались из этих переменных
+*/
+let obj93_2 = {
+    [key1_93]: 1, // Используем переменную key1 как ключ
+    [key2_93]: 2, // Используем переменную key2 как ключ
+    [key3_93]: 3  // Используем переменную key3 как ключ
+};
+
+let key1_93 = 'x';
+let key2_93 = 'y';
+let key3_93 = 'z';
+
+console.log(obj93_2);
