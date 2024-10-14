@@ -86,3 +86,28 @@ console.log(Object.keys(obj89).length);
 let obj90 = {x: 1, y: 2, z: 3};
 key90 = 'x';
 console.log(obj90[key90]);
+// глава 91
+/*
+№1⊗jsPmObEAM
+
+Исправьте ошибку, допущенную в следующем коде:
+
+let obj = {x: 1, y: 2, z: 3};
+console.log(obj[x]);
+*/
+let obj91_1 = {x: 1, y: 2, z: 3};
+console.log(obj91_1['x']);
+
+/*
+№2⊗jsPmObEAM
+
+Исправьте ошибку, допущенную в следующем коде:
+
+let obj = {x: 1, y: 2, z: 3};
+let key = 'x';
+console.log(obj['key']);
+*/
+let obj91_2 = {x: 1, y: 2, z: 3};
+let key91_2 = 'x';
+console.log(obj91_2[key91_2]);
+// глава 92
