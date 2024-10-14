@@ -1,23 +1,30 @@
 "use strict"
-let test104 = 2;
-if (test104 > 10) {
+// глава 105
+let test105 = 2;
+if (test105 > 10) {
 	console.log('+++'); // сработает это
 } else {
 	console.log('---');
 }
-if (test104 < 10) {
+if (test105 < 10) {
 	console.log('+++'); // сработает это
 } else {
 	console.log('---');
 }
-if (test104 >= 10) {
+if (test105 >= 10) {
 	console.log('+++'); // сработает это
 } else {
 	console.log('---');
 }
-if (test104 <= 10) {
+if (test105 <= 10) {
 	console.log('+++'); // сработает это
 } else {
 	console.log('---');
 }
-
+// глава 106
+let per106 = 10;
+if (per106 == 0) {
+	console.log('+++');
+} else {
+	console.log('---'); // сработает это
+}
