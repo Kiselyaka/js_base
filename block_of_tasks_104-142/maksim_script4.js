@@ -36,3 +36,20 @@ if (test107 != 0) {
 } else {
 	console.log('---'); // сработает это
 }
+// глава 108
+let test1_108a_1 = 1;
+let test2_108b_1 = 2;
+
+if (test2_108b_1 > test1_108a_1) {
+	console.log(test2_108b_1); // сработает это
+} else {
+	console.log(test1_108a_1);
+}
+
+let test1_108a_2 = 1;
+let test2_108b_2 = 2;
+if (test1_108a_2 == test2_108b_2) {
+	console.log('значения равны');
+} else {
+	console.log('значения не равны'); 
+}
