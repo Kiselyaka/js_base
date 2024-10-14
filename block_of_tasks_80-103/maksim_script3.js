@@ -218,3 +218,45 @@ delete obj.x;
 console.log('x' in obj);
 Ответ: false
 */
+// глава 96
+/*
+№1⊗jsPmObTp
+
+Не запуская код, определите, что выведется в консоль:
+
+console.log( typeof {x: 1, y: 2, z: 3} );
+*/
+
+//Ответ: object
+
+/*
+№2⊗jsPmObTp
+
+Не запуская код, определите, что выведется в консоль:
+
+console.log( typeof {} );
+*/
+
+//Ответ: object
+
+/*
+№3⊗jsPmObTp
+
+Не запуская код, определите, что выведется в консоль:
+
+let obj = {x: 1, y: 2, z: 3};
+console.log( typeof obj );
+*/
+
+//Ответ: object
+
+/*
+№4⊗jsPmObTp
+
+Не запуская код, определите, что выведется в консоль:
+
+let obj = {x: 1, y: 2, z: 3};
+console.log( typeof obj['x'] );
+*/
+
+//Ответ: number
