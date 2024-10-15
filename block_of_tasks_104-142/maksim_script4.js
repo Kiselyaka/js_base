@@ -581,3 +581,26 @@ if (test120) {
 } else {
 	console.log('---');
 }
+// глава 121
+let test121_a = true;
+
+if (!test121_a) {
+	console.log('+++');
+} else {
+	console.log('---');
+}
+let test121_b = true;
+
+if (test121_b) {
+	console.log('+++');
+} else {
+	console.log('---');
+}
+
+let test121_c = true;
+
+if (test121_c) {
+	console.log('+++');
+} else {
+	console.log('---');
+}
