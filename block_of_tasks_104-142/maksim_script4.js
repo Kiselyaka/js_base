@@ -223,3 +223,27 @@ if (test1_110a_2 == test2_110b_2) {
 // Ответ: +++
 
 // глава 113
+
+let num113  = 3;
+
+if (num113 > 0 && num113 < 5) {
+	console.log('+++');
+} else {
+	console.log('---');
+}
+
+let num113_2 = 10;
+
+if (num113_2 >= 10 && num113_2 < 20) {
+	console.log('+++');
+} else {
+	console.log('---');
+}
+
+let num113_3 = 1;
+let num113_3b = 2;
+if (num113_3 <= 1 && num113_3b >= 3) {
+	console.log('+++');
+} else {
+	console.log('---');
+}
