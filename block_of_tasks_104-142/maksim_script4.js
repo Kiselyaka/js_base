@@ -444,3 +444,17 @@ if (!(num117_1 >= 0 || num117_2 <= 10)) {
 } else {
 	console.log('---');
 }
+
+// глава 118
+let test118 = true;
+
+if (test118 === true) {
+	console.log('+++');
+} else {
+	console.log('---');
+}
+if (test118 === false) {
+	console.log('+++');
+} else {
+	console.log('---');
+}
