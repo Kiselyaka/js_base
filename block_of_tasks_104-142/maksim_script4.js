@@ -436,3 +436,11 @@ if (num116_3 == 9 || (num116_3 > 10 && num116_3 < 20) || (num116_3 > 20 && num11
 } else {
 	console.log('---');
 }
+// глава 117
+let num117_1 = 3;
+let num117_2 = 10;
+if (!(num117_1 >= 0 || num117_2 <= 10)) {
+	console.log('+++');
+} else {
+	console.log('---');
+}
