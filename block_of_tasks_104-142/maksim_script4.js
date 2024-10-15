@@ -571,3 +571,13 @@ undefined («неопределённое» значение).
 // }
 
 // Ответ: ---
+
+// глава 120
+
+let test120 = true;
+
+if (test120) {
+	console.log('+++');
+} else {
+	console.log('---');
+}
