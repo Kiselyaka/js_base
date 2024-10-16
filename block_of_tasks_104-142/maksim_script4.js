@@ -604,3 +604,174 @@ if (test121_c) {
 } else {
 	console.log('---');
 }
+// глава 122
+
+// №1⊗jsPmCdShCh
+
+// Не запуская код, определите, что выведется в консоль:
+
+// let test = 3;
+
+// if (test) {
+// 	console.log('+++');
+// } else {
+// 	console.log('---');
+// }
+
+// Ответ: +++
+
+// №2⊗jsPmCdShCh
+
+// Не запуская код, определите, что выведется в консоль:
+
+// let test = 'abc';
+
+// if (test) {
+// 	console.log('+++');
+// } else {
+// 	console.log('---');
+// }
+
+// Ответ: +++
+
+// №3⊗jsPmCdShCh
+
+// Не запуская код, определите, что выведется в консоль:
+
+// let test = '';
+
+// if (test) {
+// 	console.log('+++');
+// } else {
+// 	console.log('---');
+// }
+
+// Ответ: ---
+
+// №4⊗jsPmCdShCh
+
+// Не запуская код, определите, что выведется в консоль:
+
+// let test = 3 * 'abc';
+
+// if (test) {
+// 	console.log('+++');
+// } else {
+// 	console.log('---');
+// }
+
+// Ответ: ---
+
+// №5⊗jsPmCdShCh
+
+// Не запуская код, определите, что выведется в консоль:
+
+// let test = null;
+
+// if (test) {
+// 	console.log('+++');
+// } else {
+// 	console.log('---');
+// }
+
+// Ответ: ---
+
+// №6⊗jsPmCdShCh
+
+// Не запуская код, определите, что выведется в консоль:
+
+// let test = false;
+
+// if (test) {
+// 	console.log('+++');
+// } else {
+// 	console.log('---');
+// }
+
+// Ответ: ---
+
+// №7⊗jsPmCdShCh
+
+// Не запуская код, определите, что выведется в консоль:
+
+// let test;
+
+// if (test) {
+// 	console.log('+++');
+// } else {
+// 	console.log('---');
+// }
+
+// Ответ: ---
+
+// №8⊗jsPmCdShCh
+
+// Не запуская код, определите, что выведется в консоль:
+
+// let test = 0;
+
+// if (test) {
+// 	console.log('+++');
+// } else {
+// 	console.log('---');
+// }
+
+// Ответ: ---
+
+// №9⊗jsPmCdShCh
+
+// Не запуская код, определите, что выведется в консоль:
+
+// let test = '0';
+
+// if (test) {
+// 	console.log('+++');
+// } else {
+// 	console.log('---');
+// }
+
+// Ответ: +++
+
+// №10⊗jsPmCdShCh
+
+// Не запуская код, определите, что выведется в консоль:
+
+// let test = -1;
+
+// if (test) {
+// 	console.log('+++');
+// } else {
+// 	console.log('---');
+// }
+
+// Ответ: +++
+
+// глава 123
+
+let test1_123a = true;
+let test2_123b = true;
+
+
+if (test1_123a && test2_123b) {
+  console.log('+++');
+} else {
+  console.log('---');
+}
+
+if (test1_123a && !test2_123b) {
+  console.log('+++');
+} else {
+  console.log('---');
+}
+
+if (!test1_123a && !test2_123b) {
+	console.log('+++');
+  } else {
+	console.log('---');
+  }
+
+if (test1_123a && test2_123b) {
+	console.log('+++');
+} else {
+	console.log('---');
+}
