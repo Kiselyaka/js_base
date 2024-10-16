@@ -750,7 +750,7 @@ if (test121_c) {
 
 let test1_123a = true;
 let test2_123b = true;
-
+let test3_123с = true;
 
 if (test1_123a && test2_123b) {
   console.log('+++');
@@ -771,6 +771,18 @@ if (!test1_123a && !test2_123b) {
   }
 
 if (test1_123a && test2_123b) {
+	console.log('+++');
+} else {
+	console.log('---');
+}
+
+if (test1_123a && test2 && test3) {
+	console.log('+++');
+  } else {
+	console.log('---');
+  }
+
+if (test1_123a && !test2_123b && !test3_123с) {
 	console.log('+++');
 } else {
 	console.log('---');
