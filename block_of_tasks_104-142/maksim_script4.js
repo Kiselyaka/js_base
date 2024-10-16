@@ -800,7 +800,7 @@ if (test125 > 0) console.log('+++'); else console.log('---');
 
 if (test > 0) console.log('+++');
 // глава 127
-let day127_1 = 15; // Пример значения
+let day127_1 = 15;
 
 if (day127_1 >= 1 && day127_1 <= 10) {
   console.log('Первая декада месяца');
@@ -812,7 +812,7 @@ if (day127_1 >= 1 && day127_1 <= 10) {
   console.log('Неверное значение переменной day');
 }
 
-let day127_2 = 32; // Пример значения
+let day127_2 = 32; 
 
 if (typeof day127_2 !== 'number' || day127_2 < 1 || day127_2 > 31) {
   console.log('Ошибка: значение переменной day должно быть числом от 1 до 31');
@@ -822,4 +822,19 @@ if (typeof day127_2 !== 'number' || day127_2 < 1 || day127_2 > 31) {
   console.log('Вторая декада месяца');
 } else {
   console.log('Третья декада месяца');
+}
+// глава 128
+let num128 = 34; 
+
+if (num128 >= 10 && num128 <= 99) {
+  let tens128 = (num128 / 10) % 10; // Десятки
+  let units128 = num128 % 10; // Единицы
+  let sum128 = tens128 + units128;
+  if (sum128 <= 9) {
+    console.log('Сумма цифр однозначна');
+  } else {
+    console.log('Сумма цифр двухзначна');
+  }
+} else {
+  console.log('Число не находится в диапазоне от 10 до 99');
 }
