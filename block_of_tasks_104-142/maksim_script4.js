@@ -795,3 +795,8 @@ if (test123 == 10) {
 	console.log('+++');
 }
 // глава 125
+let test125 = 12;
+if (test125 > 0) console.log('+++'); else console.log('---');
+
+if (test > 0) console.log('+++');
+// глава 126
