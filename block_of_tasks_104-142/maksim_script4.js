@@ -787,3 +787,11 @@ if (test1_123a && !test2_123b && !test3_123с) {
 } else {
 	console.log('---');
 }
+
+// глава 124
+let test124 = 10;
+
+if (test123 == 10) {
+	console.log('+++');
+}
+// глава 125
