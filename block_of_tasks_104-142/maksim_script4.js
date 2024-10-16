@@ -799,4 +799,27 @@ let test125 = 12;
 if (test125 > 0) console.log('+++'); else console.log('---');
 
 if (test > 0) console.log('+++');
-// глава 126
+// глава 127
+let day127_1 = 15; // Пример значения
+
+if (day127_1 >= 1 && day127_1 <= 10) {
+  console.log('Первая декада месяца');
+} else if (day127_1 >= 11 && day127_1 <= 20) {
+  console.log('Вторая декада месяца');
+} else if (day127_1 >= 21 && day127_1 <= 31) {
+  console.log('Третья декада месяца');
+} else {
+  console.log('Неверное значение переменной day');
+}
+
+let day127_2 = 32; // Пример значения
+
+if (typeof day127_2 !== 'number' || day127_2 < 1 || day127_2 > 31) {
+  console.log('Ошибка: значение переменной day должно быть числом от 1 до 31');
+} else if (day127_2 >= 1 && day127_2 <= 10) {
+  console.log('Первая декада месяца');
+} else if (day127_2 >= 11 && day127_2 <= 20) {
+  console.log('Вторая декада месяца');
+} else {
+  console.log('Третья декада месяца');
+}
