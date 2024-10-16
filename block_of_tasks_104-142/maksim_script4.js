@@ -776,7 +776,7 @@ if (test1_123a && test2_123b) {
 	console.log('---');
 }
 
-if (test1_123a && test2 && test3) {
+if (test1_123a && test2_123b && test3_123с) {
 	console.log('+++');
   } else {
 	console.log('---');
@@ -791,14 +791,14 @@ if (test1_123a && !test2_123b && !test3_123с) {
 // глава 124
 let test124 = 10;
 
-if (test123 == 10) {
+if (test124 == 10) {
 	console.log('+++');
 }
 // глава 125
 let test125 = 12;
 if (test125 > 0) console.log('+++'); else console.log('---');
 
-if (test > 0) console.log('+++');
+if (test125 > 0) console.log('+++');
 // глава 127
 let day127_1 = 15;
 
