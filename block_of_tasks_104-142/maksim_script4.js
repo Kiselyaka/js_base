@@ -910,3 +910,13 @@ if (ok133){
 else{
 	alert('Код не копируй,хорошо?-_-')
 }
+// глава 134
+let age134 = 17;
+let adult134;
+if (age134 >= 18) {
+	adult134 = true;
+} else {
+	adult134 = false;
+}
+
+console.log(adult134);
