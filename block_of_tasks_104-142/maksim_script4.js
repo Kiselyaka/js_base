@@ -855,3 +855,8 @@ switch (lang129) {
 	console.log('язык не поддерживается');
 	break;
 }
+// глава 131
+let num131 = 1;
+let res131 = num131 >= 0 ? true : false;
+
+console.log(res131);
