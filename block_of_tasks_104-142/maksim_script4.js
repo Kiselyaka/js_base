@@ -838,3 +838,20 @@ if (num128 >= 10 && num128 <= 99) {
 } else {
   console.log('Число не находится в диапазоне от 10 до 99');
 }
+// глава 129
+let lang129 = 'ru';
+
+switch (lang129) {
+	case 'ru': 	
+	console.log('рус');
+	break;
+	case 'en': 
+	console.log('анг');
+	break;
+	case 'de': 
+	console.log('нем');
+	break;
+    default:
+	console.log('язык не поддерживается');
+	break;
+}
