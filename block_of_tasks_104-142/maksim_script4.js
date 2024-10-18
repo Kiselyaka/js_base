@@ -1025,7 +1025,16 @@ console.log(adult134);
 
 // console.log(adult);
 
+let age135_1 = 17;
+let adult135_1;
 
+if (age135_1 >= 18) {
+  adult135_1 = true; // Убираем let, чтобы использовать внешнюю переменную
+} else {
+  adult135_1 = false; // Убираем let, чтобы использовать внешнюю переменную
+}
+
+console.log(adult135_1);
 
 
 // №2⊗jsPmCdScpN
@@ -1045,7 +1054,16 @@ console.log(adult134);
 
 // console.log(adult);
 
+let age135_2 = 17;
+let adult135_2;
 
+if (age135_2 >= 18) {
+  adult135_2 = true;
+} else {
+  adult135_2 = false; // Убираем let, чтобы использовать внешнюю переменную
+}
+
+console.log(adult135_2); // false
 
 
 // №3⊗jsPmCdScpN
@@ -1070,7 +1088,20 @@ console.log(adult134);
 // console.log(res);
 
 
+let age135_3 = 17;
+let res135_3;
 
+if (age135_3 >= 18) {
+  if (age135_3 <= 23) {
+    res135_3 = 'от 18 до 23'; // Убираем let, чтобы использовать внешнюю переменную
+  } else {
+    res135_3 = 'больше 23'; // Убираем let, чтобы использовать внешнюю переменную
+  }
+} else {
+  res135_3 = 'меньше 18'; // Убираем let, чтобы использовать внешнюю переменную
+}
+
+console.log(res135_3); // 'меньше 18'
 
 
 // №4⊗jsPmCdScpN
@@ -1095,3 +1126,18 @@ console.log(adult134);
 // }
 
 // console.log(res);
+
+let age135_4 = 19;
+let res135_4;
+
+if (age135_4 >= 18) {
+  if (age135_4 <= 23) {
+    res135_4 = 'от 18 до 23'; // Убираем let, чтобы использовать внешнюю переменную
+  } else {
+    res135_4 = 'больше 23'; // Убираем let, чтобы использовать внешнюю переменную
+  }
+} else {
+  res135_4 = 'меньше 18';
+}
+
+console.log(res135_4); // 'больше 23'
