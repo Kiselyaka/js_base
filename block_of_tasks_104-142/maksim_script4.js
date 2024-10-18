@@ -1210,3 +1210,21 @@ if (lastDigit139 === '0' || lastDigit139 === '2' || lastDigit139 === '4' || last
 } else {
   console.log('Число нечетное');
 }
+
+// глава 140
+
+let number140 = 10;
+
+// Проверка четности
+if (number140 % 2 === 0) {
+  console.log('Число четное');
+} else {
+  console.log('Число нечетное');
+}
+
+// Проверка делимости на 3
+if (number140 % 3 === 0) {
+  console.log('Число делится на 3');
+} else {
+  console.log('Число не делится на 3');
+}
