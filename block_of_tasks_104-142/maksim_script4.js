@@ -1157,3 +1157,11 @@ if (min136 >= 20 && min136 <= 39) {
 if (min136 >= 40 && min136 <= 59) {
 	console.log('3 треть часа');
 }
+// глава 137
+let arr137 = [1, 2, 4, 456, 76, 894];
+if (arr137.length === 3){
+	console.log(arr137[0] + arr137[1] + arr137[2] + arr137[3] + arr137[4] + arr137[5]);
+}
+else{
+	console.log('его длина равна не 3')
+}
