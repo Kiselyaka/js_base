@@ -44,3 +44,24 @@ while (num146 <= 1000) {
 
 console.log('Результат:' + num146);
 console.log('Количество итераций:' + iterations146);
+
+// глава 147
+for (let i_147_1 = 1; i_147_1 <= 100; i_147_1++ ){
+    console.log(i_147_1);
+}
+
+for (let i_147_2 = 11; i_147_2 <= 33; i_147_2++){
+    console.log(i_147_2);
+}
+
+for (let i_147_3 = 0; i_147_3 <= 100; i_147_3 += 2){
+    console.log(i_147_3);
+}
+
+for (let i_147_4 = 1; i_147_4 <= 99; i_147_4 += 2){
+    console.log(i_147_4);
+}
+
+for (let i_147_5 = 100; i_147_5 >= 0; i_147_5--){
+    console.log(i_147_5);
+}
