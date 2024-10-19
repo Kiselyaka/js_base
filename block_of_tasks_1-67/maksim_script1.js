@@ -258,7 +258,7 @@ let width_63 = Number(prompt('Введите значение ширины пр�
 alert('Площадь прямоугольника равна: ' + (height_63 * width_63));
 // глава 64
 let str64_1 = 'bim-bim';
-document.write('<b>' + str + '</b>');
+document.write('<b>' + str64_1 + '</b>');
 
 let str64_2 = 'bom-bom';
 document.write('<i>' + str64_2 + '</i>');
