@@ -65,3 +65,24 @@ for (let i_147_4 = 1; i_147_4 <= 99; i_147_4 += 2){
 for (let i_147_5 = 100; i_147_5 >= 0; i_147_5--){
     console.log(i_147_5);
 }
+// глава 148
+let arr148_1 = ['a', 'b', 'c', 'd', 'e'];
+for (let i = 0; i < arr148_1.length; i++) {
+	console.log(arr148_1[i]);
+}
+
+let arr148_2 = ['a', 'b', 'c', 'd', 'e'];
+for (let i = 1; i < (arr148_2.length - 1); i++) {
+	console.log(arr148_2[i]);
+}
+
+let arr148_3 = ['a', 'b', 'c', 'd', 'e'];
+for (let i = arr148_3.length - 1; i >= 0; i--) {
+	console.log(arr148_3[i]);
+}
+
+let arr148_4 = ['a', 'b', 'c', 'd', 'e'];
+		
+for (let i = 0; i < arr148_4.length; i++) {
+	console.log(arr148_4[i]);
+}
