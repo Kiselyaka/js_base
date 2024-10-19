@@ -1244,9 +1244,14 @@ if (number140 % 3 === 0) {
 // 	console.log('---');
 // }
 
+let num1_141_1 = 1;
+let num2_141_1 = 2;
 
-
-
+if (num1_141_1 + num2_141_1 === 3) {
+  console.log('+++');
+} else {
+  console.log('---');
+}
 
 // №2⊗jsPmCdMst
 
@@ -1261,9 +1266,14 @@ if (number140 % 3 === 0) {
 // 	console.log('---');
 // }
 
+let num1_141_2 = '1';
+let num2_141_2 = '2';
 
-
-
+if (Number(num1_141_2) + Number(num2_141_2) === 3) {
+  console.log('+++');
+} else {
+  console.log('---');
+}
 
 // №3⊗jsPmCdMst
 
@@ -1278,11 +1288,14 @@ if (number140 % 3 === 0) {
 // 	console.log('---');
 // }
 
+let num1_141_3 = '1';
+let num2_141_3 = '2';
 
-
-
-
-
+if (Number(num1_141_3) + Number(num2_141_3) === 3) {
+  console.log('+++');
+} else {
+  console.log('---');
+}
 
 // №4⊗jsPmCdMst
 
@@ -1296,11 +1309,13 @@ if (number140 % 3 === 0) {
 // 	console.log('---');
 // }
 
+let num141_4 = 123;
 
-
-
-
-
+if (String(num141_4)[0] === '1') {
+  console.log('+++');
+} else {
+  console.log('---');
+}
 // №5⊗jsPmCdMst
 
 // Код должен проверить первую цифру числа:
@@ -1314,10 +1329,13 @@ if (number140 % 3 === 0) {
 // }
 
 
+let num141_5 = 123;
 
-
-
-
+if (String(num141_5)[0] === '1') {
+  console.log('+++');
+} else {
+  console.log('---');
+}
 
 
 // №6⊗jsPmCdMst
@@ -1332,10 +1350,13 @@ if (number140 % 3 === 0) {
 // 	console.log('---');
 // }
 
+let num141_6 = 123;
 
-
-
-
+if (String(num141_6)[0] === '1') {
+  console.log('+++');
+} else {
+  console.log('---');
+}
 
 // №7⊗jsPmCdMst
 
@@ -1350,10 +1371,14 @@ if (number140 % 3 === 0) {
 // 	console.log('---');
 // }
 
+let num141_7 = 123;
+let first141_7 = String(num141_7)[0];
 
-
-
-
+if (first141_7 === '1') {
+  console.log('+++');
+} else {
+  console.log('---');
+}
 
 // №8⊗jsPmCdMst
 
@@ -1367,12 +1392,13 @@ if (number140 % 3 === 0) {
 // 	console.log('---');
 // }
 
+let num141_8 = 12;
 
-
-
-
-
-
+if (String(num141_8).length === 2) {
+  console.log('+++');
+} else {
+  console.log('---');
+}
 
 // №9⊗jsPmCdMst
 
@@ -1387,9 +1413,13 @@ if (number140 % 3 === 0) {
 // 	console.log('---');
 // }
 
+let num141_9 = 12;
 
-
-
+if (String(num141_9).length === 2) {
+  console.log('+++');
+} else {
+  console.log('---');
+}
 
 // №10⊗jsPmCdMst
 
@@ -1403,11 +1433,13 @@ if (number140 % 3 === 0) {
 // 	console.log('---');
 // }
 
+let num141_10 = 12;
 
-
-
-
-
+if (String(num141_10).length === 2) {
+  console.log('+++');
+} else {
+  console.log('---');
+}
 
 // №11⊗jsPmCdMst
 
@@ -1421,8 +1453,13 @@ if (number140 % 3 === 0) {
 // 	console.log('---');
 // }
 
+let num141_11 = 12;
 
-
+if (String(num141_11).length === 2) {
+  console.log('+++');
+} else {
+  console.log('---');
+}
 
 // №12⊗jsPmCdMst
 
@@ -1436,10 +1473,13 @@ if (number140 % 3 === 0) {
 // 	console.log('---');
 // }
 
+let num141_12 = 12;
 
-
-
-
+if (String(num141_12).length === 2) {
+  console.log('+++');
+} else {
+  console.log('---');
+}
 
 // №13⊗jsPmCdMst
 
@@ -1455,3 +1495,14 @@ if (number140 % 3 === 0) {
 // } else {
 // 	console.log('суммы не равны');
 // }
+
+let num141_13 = '123033'; // берем в кавычки, чтобы обращаться к цифрам
+
+let sum1_141 = Number(num141_13[0]) + Number(num141_13[1]) + Number(num141_13[2]);
+let sum2_141 = Number(num141_13[3]) + Number(num141_13[4]) + Number(num141_13[5]);
+
+if (sum2_141 === sum2_141) {
+  console.log('суммы равны');
+} else {
+  console.log('суммы не равны');
+}
