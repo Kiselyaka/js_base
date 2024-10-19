@@ -1506,3 +1506,55 @@ if (sum2_141 === sum2_141) {
 } else {
   console.log('суммы не равны');
 }
+
+// глава 142
+
+let month_142 = 5; // Пример: май
+
+if (month_142 === 12 || month_142 === 1 || month_142 === 2) {
+    console.log('Зима');
+} else if (month_142 >= 3 && month_142 <= 5) {
+    console.log('Весна');
+} else if (month_142 >= 6 && month_142 <= 8) {
+    console.log('Лето');
+} else if (month_142 >= 9 && month_142 <= 11) {
+    console.log('Осень');
+} else {
+    console.log('Некорректный месяц');
+}
+
+
+let str = 'abcde'; 
+
+if (str[0] === 'a') {
+    console.log('да');
+} else {
+    console.log('нет');
+}
+
+
+let num142_3 = 12345; 
+
+if (String(num)[0] === '1' || String(num)[0] === '2' || String(num)[0] === '3') {
+    console.log('да');
+} else {
+    console.log('нет');
+}
+
+
+let num142_4 = 456; 
+
+let sum142_4 = Math.floor(num142_4 / 100) + Math.floor((num142_4 % 100) / 10) + Math.floor(num142_4 % 10);
+console.log('Сумма цифр:', sum142_4);
+
+
+let num142_5 = 123456; 
+
+let firstHalfSum = Math.floor(num142_5 / 1000) % 10 + Math.floor(num142_5 / 100) % 10 + Math.floor(num142_5 / 10) % 10;
+let secondHalfSum = num142_5% 10 + Math.floor(num142_5 / 10) % 10 + Math.floor(num142_5 / 100) % 10;
+
+if (firstHalfSum === secondHalfSum) {
+    console.log('да');
+} else {
+    console.log('нет');
+}
