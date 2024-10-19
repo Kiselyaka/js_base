@@ -84,7 +84,7 @@ let obj89 = {x: 1, y: 2, z: 3};
 console.log(Object.keys(obj89).length);
 // глава 90
 let obj90 = {x: 1, y: 2, z: 3};
-key90 = 'x';
+let key90 = 'x';
 console.log(obj90[key90]);
 
 // глава 91
@@ -181,15 +181,15 @@ let key2 = 'y';
 let key3 = 'z';
 Сделайте так, чтобы ключи объекта брались из этих переменных
 */
+let key1_93 = 'x';
+let key2_93 = 'y';
+let key3_93 = 'z';
+
 let obj93_2 = {
     [key1_93]: 1, // Используем переменную key1 как ключ
     [key2_93]: 2, // Используем переменную key2 как ключ
     [key3_93]: 3  // Используем переменную key3 как ключ
 };
-
-let key1_93 = 'x';
-let key2_93 = 'y';
-let key3_93 = 'z';
 
 console.log(obj93_2);
 // глава 94
