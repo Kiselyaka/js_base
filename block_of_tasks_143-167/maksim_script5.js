@@ -86,3 +86,17 @@ let arr148_4 = ['a', 'b', 'c', 'd', 'e'];
 for (let i = 0; i < arr148_4.length; i++) {
 	console.log(arr148_4[i]);
 }
+// глава 149
+let arr149_1 = [2, 5, 9, 15, 1, 4];
+for (let elem of arr149_1) {
+	if (elem > 3 && elem < 10) {
+		console.log(elem);
+	}
+}
+
+let obj149_2 = {a: 1, b: 2, c: 3, d: 4, e: 5};
+for (let elem in obj149_2) {
+    if (obj149_2[elem] % 2 !== 0) {
+		console.log(obj149_2[elem]);
+	}
+}
