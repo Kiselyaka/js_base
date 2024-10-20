@@ -100,3 +100,22 @@ for (let elem in obj149_2) {
 		console.log(obj149_2[elem]);
 	}
 }
+// глава 150
+let res150 = 0;
+
+for (let i = 2; i <= 100; i += 2) {
+	res150 += i;
+}
+console.log(res150);
+
+let sumOdd150 = 0;
+for (let i = 1; i < 100; i += 2) {
+  sumOdd150 += i;
+}
+console.log(sumOdd150);
+
+let product150 = 1;
+for (let i = 1; i <= 20; i++) {
+  product150 *= i;
+}
+console.log(product150);
