@@ -119,3 +119,33 @@ for (let i = 1; i <= 20; i++) {
   product150 *= i;
 }
 console.log(product150);
+// глава 151
+let arr151_1 = [2, 5, 9, 3, 1, 4];
+let res151_1 = 0;
+for (let elem of arr151_1) {
+	res151_1 += elem;
+}
+console.log(res151_1); // искомая сумма
+
+let arr151_2 = [2, 5, 9, 3, 1, 4];
+let res151_2 = 0;
+for (let elem of arr151_2) {
+    if (elem % 2 === 0) {
+      res151_2 += elem;
+    }
+  }  
+console.log(res151_2);
+
+let arr151_3 = [2, 5, 9, 3, 1, 4];
+let res151_3 = 0;
+for (let elem of arr151_3) {
+    res151_3 += elem * elem; // или Math.pow(elem, 2)
+  }  
+console.log(res151_3);
+
+let arr151_4 = [2, 5, 9, 3, 1, 4];
+let res151_4 = 1;
+for (let elem of arr151_4) {
+    res151_4 *= elem;
+  }
+console.log(res151_4); 
