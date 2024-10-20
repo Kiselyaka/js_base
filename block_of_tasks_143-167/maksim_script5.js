@@ -149,3 +149,28 @@ for (let elem of arr151_4) {
     res151_4 *= elem;
   }
 console.log(res151_4); 
+// глава 152
+let str152_1 = '';
+for (let i = 0; i <= 5; i++) {
+	str152_1 += '-';
+}
+console.log(str152_1); 
+
+let str152_2 = '';
+for (let i = 1; i <= 9; i++) {
+	str152_2 += i;
+}
+console.log(str152_2); 
+
+let str152_3 = '';
+for (let i = 9; i >= 1; i--) {
+	str152_3 += i;
+}
+console.log(str152_3);
+
+let str152_4 = '';
+for (let i = 1; i <= 9; i++) {
+	str152_4 += '-';
+    str152_4 += i;
+}
+console.log(str152_4);
