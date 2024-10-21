@@ -174,3 +174,32 @@ for (let i = 1; i <= 9; i++) {
     str152_4 += i;
 }
 console.log(str152_4);
+// глава 153
+
+for (let i = 10; i <= 1000; i++) {
+  let str153 = String(i); // преобразуем число в строку
+  console.log(str153[0]); // выводим первую цифру
+}
+
+for (let i = 10; i <= 1000; i++) {
+  let str153_2 = String(i); // преобразуем число в строку
+  let firstDigit_153 = Number(str153_2[0]); // первая цифра
+  let secondDigit_153 = Number(str153_2[1]); // вторая цифра
+  console.log(firstDigit_153 + secondDigit_153); // выводим сумму
+}
+
+for (let i = 10; i <= 1000; i++) {
+  let str153_3 = String(i); // преобразуем число в строку
+  if (str153_3[0] === '1') { // проверяем первую цифру
+    console.log(i); // выводим число
+  }
+}
+
+for (let i = 10; i <= 1000; i++) {
+  let str153_4 = String(i); // преобразуем число в строку
+  let firstDigit_153_4 = Number(str153_4[0]); // первая цифра
+  let secondDigit_153_4 = Number(str153_4[1]); // вторая цифра
+  if (firstDigit_153_4 + secondDigit_153_4 === 5) { // проверяем сумму
+    console.log(i); // выводим число
+  }
+}
