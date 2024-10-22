@@ -203,3 +203,44 @@ for (let i = 10; i <= 1000; i++) {
     console.log(i); // выводим число
   }
 }
+// глава 154
+
+let arr154_1 = [1, 2, 3, 0, 4, 5];
+
+for (let elem154_1 of arr154_1) {
+  if (elem154_1 === 0) {
+    break; // выйдем из цикла, если нашли 0
+  }
+  console.log(elem154_1);
+}
+
+let arr154_2 = [1, 2, 3, -1, 4, 5];
+let sum154_2 = 0;
+
+for (let elem154_2 of arr154_2) {
+  if (elem154_2 < 0) {
+    break; // выйдем из цикла, если нашли отрицательное число
+  }
+  sum154_2 += elem154_2;
+}
+console.log('Сумма:', sum154_2);
+
+let arr154_3 = [1, 2, 3, 4, 5];
+let position154_3 = -1;
+
+for (let i = 0; i < arr154_3.length; i++) {
+  if (arr154_3[i] === 3) {
+    position154_3 = i; // запоминаем индекс
+    break; // выйдем из цикла после нахождения
+  }
+}
+console.log('Позиция первого числа 3:', position154_3);
+
+let sum154_4 = 0;
+let count154_4 = 0;
+
+for (let i = 1; sum154_4 <= 100; i++) {
+  sum154_4 += i;
+  count154_4++;
+}
+console.log('Количество целых чисел:', count154_4);
