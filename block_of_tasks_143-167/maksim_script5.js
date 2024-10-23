@@ -244,3 +244,16 @@ for (let i = 1; sum154_4 <= 100; i++) {
   count154_4++;
 }
 console.log('Количество целых чисел:', count154_4);
+// глава 156
+
+for (let i = 1; i <= 9; i++) {
+  for (let j = 1; j <= 3; j++) {
+    document.write(i);
+  }
+}
+
+for (let i = 1; i <= 3; i++) {
+  for (let j = 1; j <= 3; j++) {
+    document.write(i.toString() + j.toString() + " ");
+  }
+}
