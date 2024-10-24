@@ -257,3 +257,25 @@ for (let i = 1; i <= 3; i++) {
     document.write(i.toString() + j.toString() + " ");
   }
 }
+// глава 159
+
+let arr1_159 = [];
+for (let i = 1; i <= 10; i++) {
+  arr1_159.push(i);
+}
+console.log(arr1_159);
+
+let arr2_159 = [];
+for (let i = 0; i < 10; i++) {
+  arr2_159.push('x');
+}
+console.log(arr2_159);
+
+let originalArray = [-3, 5, -1, 0, 7, -8, 2];
+let positiveArray = [];
+for (let i = 0; i < originalArray.length; i++) {
+  if (originalArray[i] > 0) {
+    positiveArray.push(originalArray[i]);
+  }
+}
+console.log(positiveArray);
