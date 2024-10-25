@@ -279,3 +279,22 @@ for (let i = 0; i < originalArray.length; i++) {
   }
 }
 console.log(positiveArray);
+
+// глава 160
+let arr160_1 = [1, 2, 3, 4, 5];
+for (let i = 0; i < arr160_1.length; i++) {
+    arr160_1[i] = arr160_1[i] ** 2;
+}
+console.log(arr160_1);
+
+let arr160_2 = [1, 2, 3, 4, 5];
+for (let i = 0; i < arr160_2.length; i++) {
+    arr160_2[i] -= 1;
+}
+console.log(arr160_2);
+
+let arr160_3 = [1, 2, 3, 4, 5];
+for (let i = 0; i < arr160_3.length; i++) {
+    arr160_3[i] += 10;
+}
+console.log(arr160_3);
