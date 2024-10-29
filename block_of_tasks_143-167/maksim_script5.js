@@ -333,3 +333,17 @@ for (let key in obj_161_3) {
 }
 
 console.log(invertedObj161_3);
+
+// глава 162
+
+let obj162_1 = {x: 1, y: 2, z: 3};
+for (let key in obj162_1) {
+	obj162_1[key] = obj162_1[key] ** 2;
+}
+console.log(obj162_1);
+
+let obj162_2 = {x: 1, y: 2, z: 3};
+for (let key in obj162_2) {
+	obj162_2[key] = obj162_2[key] + 1;
+}
+console.log(obj162_2);
