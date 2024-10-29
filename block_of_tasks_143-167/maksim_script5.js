@@ -1,4 +1,5 @@
-"use strict"
+"use strict"  
+
 // глава 144
 let arr144 = ['a', 'b', 'c', 'd', 'e'];
 for (let elem of arr144){
@@ -298,3 +299,37 @@ for (let i = 0; i < arr160_3.length; i++) {
     arr160_3[i] += 10;
 }
 console.log(arr160_3);
+
+// глава 161
+
+let arr1_161_1 = ['пн', 'вт', 'ср', 'чт', 'пт', 'сб', 'вс'];
+let arr2_161_1 = [1, 2, 3, 4, 5, 6, 7];
+
+let obj_161_1 = {};
+for (let i = 0; i <= 7; i++)
+{
+  let keys = arr1_161_1[i];
+  let values = arr2_161_1[i];
+
+  obj_161_1[keys] = values;
+}
+console.log(obj_161_1);
+
+let obj_161_2 = {a: 1, b: 2, c: 3, d: 4, e: 5};
+let evenNumbers161_2 = {};
+
+for (let key in obj_161_2) {
+  if (obj[key] % 2 === 0) {
+    evenNumbers161_2[key] = obj_161_2[key];
+  }
+}
+console.log(evenNumbers161_2);
+
+let obj_161_3 = {a: 1, b: 2, c: 3, d: 4, e: 5};
+let invertedObj161_3 = {};
+
+for (let key in obj_161_3) {
+  invertedObj161_3[obj_161_3[key]] = key;
+}
+
+console.log(invertedObj161_3);
