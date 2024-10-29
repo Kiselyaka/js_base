@@ -350,38 +350,36 @@ console.log(obj162_2);
 
 // глава 163
 let arr163_1 = ['a', 'b', 'c', 'd', 'e'];
-let flag163_1 = false; // считаем, что элемента 'c' нет в массиве
+let flag163_1 = false; 
 
 for (let elem of arr163_1) {
   if (elem === 'c') {
-    flag163_1 = true; // элемент найден
-    break; // завершаем цикл
+    flag163_1 = true;
+    break; 
   }
 }
-
-// Выводим результат в зависимости от значения флага
 if (flag163_1) {
-  console.log('+++'); // если элемент найден
+  console.log('+++');
 } else {
-  console.log('---'); // если элемента нет
+  console.log('---'); 
 }
 
 
 
-let number163_2 = 7; // замените на любое число для проверки
-let flag163_2 = true; // считаем, что число простое
+let number163_2 = 7;
+let flag163_2 = true; 
 
 if (number163_2 <= 1) {
-  flag163_2 = false; // числа меньше или равные 1 не являются простыми
+  flag163_2 = false; 
 } else {
-  for (let i = 2; i <= Math.sqrt(number163_2); i++) { // проверяем делимость до корня из number
-    if (number163_2 % i === 0) {
-      flag163_2 = false; // число не простое
-      break; // завершаем цикл
+  for (let i = 2; i <= Math.sqrt(number163_2); i++) { 
+    if (number163_2 % i === 0) 
+    {
+      flag163_2 = false; 
+      break; 
     }
   }
 }
-// Выводим результат в зависимости от значения флага
 if (flag163_2) {
   console.log(number163_2 +'- простое число');
 } else {
