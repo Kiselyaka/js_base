@@ -385,3 +385,15 @@ if (flag163_2) {
 } else {
   console.log(number163_2 +'- не простое число');
 }
+
+// глава 164
+let arr164 = [10, 20, 30, 40, 21, 32, 51];
+let sum164 = 0;
+
+for (let elem of arr164) {
+  if (String(elem).charAt(0) === '1' || String(elem).charAt(0) === '2') {
+    sum164 += elem; 
+  }
+}
+
+console.log(sum164); 
