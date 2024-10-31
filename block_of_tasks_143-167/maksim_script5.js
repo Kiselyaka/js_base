@@ -364,8 +364,6 @@ if (flag163_1) {
   console.log('---'); 
 }
 
-
-
 let number163_2 = 7;
 let flag163_2 = true; 
 
@@ -387,13 +385,13 @@ if (flag163_2) {
 }
 
 // глава 164
-let arr164 = [10, 20, 30, 40, 21, 32, 51];
+let obj164 = {a: 10, b: 20, c: 30, d: 40, e: 50};
 let sum164 = 0;
 
-for (let elem of arr164) {
-  if (String(elem).charAt(0) === '1' || String(elem).charAt(0) === '2') {
-    sum164 += elem; 
+for (let elem in obj164) {
+  if (obj164[elem] === 10 || obj164[elem] === 20) { // Проверяем значения
+    sum164 += obj164[elem]; // Суммируем значения
   }
 }
 
-console.log(sum164); 
+console.log(sum164);
