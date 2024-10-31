@@ -383,15 +383,459 @@ if (flag163_2) {
 } else {
   console.log(number163_2 +'- не простое число');
 }
-
 // глава 164
-let obj164 = {a: 10, b: 20, c: 30, d: 40, e: 50};
+
+let arr164 = [10, 20, 30, 40, 21, 32, 51];
 let sum164 = 0;
 
-for (let elem in obj164) {
-  if (obj164[elem] === 10 || obj164[elem] === 20) { // Проверяем значения
-    sum164 += obj164[elem]; // Суммируем значения
+for (let elem of arr164) {
+  if (String(elem)[0] === '1' || String(elem)[0] === '2') {
+    sum164 += elem; 
   }
 }
 
 console.log(sum164);
+
+// глава 165
+let obj165 = {a: 10, b: 20, c: 30, d: 40, e: 50};
+let sum165 = 0;
+
+for (let elem in obj165) {
+  if (obj165[elem] === 10 || obj165[elem] === 20) {
+    sum165 += obj165[elem]; 
+  }
+}
+
+console.log(sum165);
+
+// глава 166
+
+// №1⊗jsPmLpMst
+
+// Код должен вывести числа от 0 до 10:
+
+// for (let i = 0; i > 10; i++) {
+// 	console.log(i);
+// }
+
+for (let i = 0; i <= 10; i++) {
+	console.log(i);
+}
+
+// №2⊗jsPmLpMst
+
+// Код должен вывести числа от 10 до 0:
+
+// for (let i = 10; i > 0; i++) {
+// 	console.log(i);
+// }
+
+for (let i = 10; i >= 0; i--) {
+  	console.log(i);
+}
+
+// №3⊗jsPmLpMst
+
+// Код должен вывести числа от 10 до 0:
+
+// for (let i = 10; i == 0; i--) {
+// 	console.log(i);
+// }
+
+for (let i = 10; i >= 0; i--) {
+  console.log(i);
+}
+
+// №4⊗jsPmLpMst
+
+// Код должен вывести числа от 0 до 10:
+
+// let i = 0;
+
+// while (i >= 10) {
+// 	console.log(i);
+// 	i++;
+// }
+
+let i166_4 = 0;
+
+while (i166_4 <= 10) {
+  console.log(i166_4);
+  i166_4++;
+}
+
+// №5⊗jsPmLpMst
+
+// Код должен найти сумму целых чисел от 1 до 10:
+
+// let res;
+
+// for (let i = 1; i <= 10; i++) {
+// 	res += i;
+// }
+
+// console.log(res);
+
+let res166_5 = 0; // Инициализируем переменную
+
+for (let i = 1; i <= 10; i++) {
+  res166_5 += i;
+}
+
+console.log(res166_5);
+
+// №6⊗jsPmLpMst
+
+// Код должен найти произведение целых чисел от 1 до 10:
+
+// let res = 0;
+
+// for (let i = 1; i <= 10; i++) {
+// 	res *= i;
+// }
+
+// console.log(res);
+
+let res166_6 = 1; 
+
+for (let i = 1; i <= 10; i++) {
+  res166_6 *= i;
+}
+
+console.log(res166_6);
+
+// №7⊗jsPmLpMst
+
+// Код должен найти сумму элементов массива:
+
+// let arr = ['1', '2', '3', '4', '5'];
+// let sum = 0;
+
+// for (let elem of arr) {
+// 	sum += elem;
+// }
+
+// console.log(sum); // должно вывести 15
+
+let arr166_7 = ['1', '2', '3', '4', '5'];
+let sum166_7 = 0;
+
+for (let elem of arr166_7) {
+  sum166_7 += +elem; 
+}
+
+console.log(sum166_7);
+
+// №8⊗jsPmLpMst
+
+// Код должен найти сумму элементов массива:
+
+// let arr = ['1', '2', '3', '4', '5'];
+// let sum = '';
+
+// for (let elem of arr) {
+// 	sum += +elem;
+// }
+
+// console.log(sum); // должно вывести 15
+
+let arr166_8 = ['1', '2', '3', '4', '5'];
+let sum166_8 = 0;
+
+for (let elem of arr166_8) {
+  sum166_8 += +elem; 
+}
+
+console.log(sum166_8);
+
+// №9⊗jsPmLpMst
+
+// Код должен найти сумму элементов массива:
+
+// let arr = ['1', '2', '3', '4', '5'];
+// let sum = 0;
+
+// for (let elem of arr) {
+// 	sum = +elem;
+// }
+
+// console.log(sum); // должно вывести 15
+
+let arr166_9 = ['1', '2', '3', '4', '5'];
+let sum166_9 = 0;
+
+for (let elem of arr166_9) {
+  sum166_9 += +elem; 
+}
+
+console.log(sum166_9);
+
+// №10⊗jsPmLpMst
+
+// Код должен найти сумму элементов массива, однако, всегда выводит NaN:
+
+// let arr = ['1', '2', '3', '4', '5'];
+// let sum = 0;
+
+// for (let i = 0; i <= arr.length; i++) {
+// 	sum += +arr[i];
+// }
+
+// console.log(sum); // почему-то выводит NaN
+
+let arr166_10 = ['1', '2', '3', '4', '5'];
+let sum166_10 = 0;
+
+for (let i = 0; i < arr166_10.length; i++) { 
+  sum166_10 += +arr166_10[i]; 
+}
+
+console.log(sum166_10);
+
+// №11⊗jsPmLpMst
+
+// Код должен найти сумму элементов массива:
+
+// let arr = ['1', '2', '3', '4', '5'];
+// let sum = 0;
+
+// for (let i = 0; i < arr.length - 1; i++) {
+// 	sum += +arr[i];
+// }
+
+// console.log(sum); // почему-то выводит не 15
+
+let arr166_11 = ['1', '2', '3', '4', '5'];
+let sum166_11 = 0;
+
+for (let i = 0; i < arr166_11.length; i++) { 
+  sum166_11 += +arr166_11[i]; 
+}
+
+console.log(sum166_11);
+
+// №12⊗jsPmLpMst
+
+// Код должен найти сумму элементов массива:
+
+// let arr = ['1', '2', '3', '4', '5'];
+// let sum = 0;
+
+// for (let i = 0; i < arr.length; i++) {
+// 	sum += +i;
+// }
+
+// console.log(sum); // почему-то выводит не 15
+
+let arr166_12 = ['1', '2', '3', '4', '5'];
+let sum166_12 = 0;
+
+for (let i = 0; i < arr166_12.length; i++) {
+  sum166_12 += +arr166_12[i]; 
+}
+
+console.log(sum166_12);
+
+// №13⊗jsPmLpMst
+
+// Код должен возвести в квадрат каждый элемент массива:
+
+// let arr = [1, 2, 3, 4, 5];
+
+// for (let elem of arr) {
+// 	elem = elem ** 2;
+// }
+
+// console.log(arr);
+
+let arr166_13 = [1, 2, 3, 4, 5];
+
+for (let i = 0; i < arr166_13.length; i++) {
+  arr166_13[i] = arr166_13[i] ** 2; 
+}
+
+console.log(arr166_13);
+
+// №14⊗jsPmLpMst
+
+// Код должен заполнить массив числами от 1 до 5:
+
+// let arr;
+
+// for (let i = 1; i <= 5; i++) {
+// 	arr.push(i);
+// }
+
+// console.log(arr);
+
+let arr166_14 = [];
+
+for (let i = 1; i <= 5; i++) {
+  arr166_14.push(i);
+}
+
+console.log(arr166_14);
+
+// №15⊗jsPmLpMst
+
+// Код должен найти сумму элементов объекта:
+
+// let obj = {a: 1, b: 2, c: 3};
+// let sum = 0;
+
+// for (let elem in obj) {
+// 	sum += elem;
+// }
+
+// console.log(sum);
+
+let obj166_15 = {a: 1, b: 2, c: 3};
+let sum166_15 = 0;
+
+for (let key in obj166_15) {
+  sum166_15 += obj166_15[key]; 
+}
+
+console.log(sum166_15);
+
+// №16⊗jsPmLpMst
+
+// Код должен найти сумму элементов объекта:
+
+// let obj = {a: 1, b: 2, c: 3};
+// let sum = 0;
+
+// for (let key in obj) {
+// 	sum = +obj.key;
+// }
+
+// console.log(sum);
+
+let obj166_16 = {a: 1, b: 2, c: 3};
+let sum166_16 = 0;
+
+for (let key in obj166_16) {
+   sum166_16 += obj166_16[key]; // Используем ключ для доступа к значению
+}
+
+console.log(sum166_16);
+
+// №17⊗jsPmLpMst
+
+// Код должен проверить, есть ли в массиве число 3 или нет:
+
+// let arr = [1, 2, 3, 4, 5];
+// let res = '';
+
+// for (let elem of arr) {
+// 	if (elem === 3) {
+// 		res = '+++';
+// 	} else {
+// 		res = '---';
+// 	}
+// }
+
+// console.log(res);
+
+let arr166_17 = [1, 2, 3, 4, 5];
+let res166_17 = false;
+
+for (let elem of arr166_17) {
+    if (elem === 3) {
+        res166_17 = true;
+        break;
+    }
+}
+
+console.log(res166_17);
+
+// №18⊗jsPmLpMst
+
+// Код должен заполнить массив числами от 1 до 5:
+
+// for (let i = 1; i <= 5; i++) {
+// 	arr.push(i);
+// }
+
+// console.log(arr);
+
+let arr166_18 = []; // Инициализируем массив
+
+for (let i = 1; i <= 5; i++) {
+    arr166_18.push(i);
+}
+
+console.log(arr166_18);
+
+// №19⊗jsPmLpMst
+
+// Код должен проверить, есть ли в массиве число 3 или нет:
+
+// let arr = [1, 2, 3, 4, 5];
+// let res = false;
+
+// for (let elem of arr) {
+// 	if (elem === 3) {
+// 		let res = true;
+// 		break;
+// 	}
+// }
+
+// console.log(res);
+
+let arr166_19 = [1, 2, 3, 4, 5];
+let res166_19 = false;
+
+for (let elem of arr166_19) {
+    if (elem === 3) {
+        res166_19 = true;
+        break;
+    }
+}
+
+console.log(res166_19);
+
+// №20⊗jsPmLpMst
+
+// Код должен вывести только четные элементы из массива:
+
+// let arr = [1, 2, 3, 4, 5];
+
+// for (let elem of arr) {
+// 	if (elem % 2 = 0) {
+// 		console.log(elem);
+// 	}
+// }
+
+let arr166_20 = [1, 2, 3, 4, 5];
+
+for (let elem of arr166_20) {
+    if (elem % 2 === 0) { // Исправлено: использовано === вместо =
+        console.log(elem);
+    }
+}
+
+// №21⊗jsPmLpMst
+
+// Код должен записать в новый массив только нечетные элементы старого массива:
+
+// let arr = [1, 2, 3, 4, 5, 6, 7, 8, 9];
+
+// for (let elem of arr) {
+// 	if (elem % 2 != 0) {
+// 		res.push(elem);
+// 	}
+// }
+
+// console.log(res);
+
+let arr166_21 = [1, 2, 3, 4, 5, 6, 7, 8, 9];
+let res166_21 = []; // Инициализируем новый массив
+
+for (let elem of arr166_21) {
+    if (elem % 2 !== 0) { // Исправлено: использовано !== вместо !=
+        res166_21.push(elem);
+    }
+}
+
+console.log(res166_21);
