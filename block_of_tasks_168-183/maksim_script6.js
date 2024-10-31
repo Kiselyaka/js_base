@@ -60,3 +60,29 @@ for (let subArr1_171_2 of arr171_2) {
   }
 }
 console.log("Сумма элементов:", sum171_2);
+
+// глава 172
+
+let arr172_1 = [[1, 2, 3], [4, 5], [6]];
+let sum172_1 = 0;
+
+for (let i = 0; i < arr172_1.length; i++) {
+  for (let j = 0; j < arr172_1[i].length; j++) {
+    sum172_1 += arr172_1[i][j]; 
+  }
+}
+
+console.log("Сумма элементов двухмерного массива:", sum172_1);
+
+
+let arr172_2 = [[[1, 2], [3, 4]], [[5, 6], [7, 8]]];
+let sum172_2 = 0;
+for (let i = 0; i < arr172_2.length; i++) {
+  for (let j = 0; j < arr172_2[i].length; j++) {
+    for (let k = 0; k < arr172_2[i][j].length; k++) {
+      sum172_2 += arr172_2[i][j][k]; 
+    }
+  }
+}
+
+console.log("Сумма элементов трехмерного массива:", sum172_2);
