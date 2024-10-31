@@ -319,7 +319,7 @@ let obj_161_2 = {a: 1, b: 2, c: 3, d: 4, e: 5};
 let evenNumbers161_2 = {};
 
 for (let key in obj_161_2) {
-  if (obj[key] % 2 === 0) {
+  if (obj_161_2[key] % 2 === 0) {
     evenNumbers161_2[key] = obj_161_2[key];
   }
 }
@@ -839,3 +839,216 @@ for (let elem of arr166_21) {
 }
 
 console.log(res166_21);
+
+// глава 167
+
+for (let i = 1; i <= 100; i++) {
+  console.log(i);
+}
+
+for (let i = 100; i >= 1; i--) {
+  console.log(i);
+}
+
+for (let i = 2; i <= 100; i += 2) {
+  console.log(i);
+}
+
+let arr167_4 = [];
+for (let i = 0; i < 10; i++) {
+    arr167_4.push('x');
+}
+console.log(arr167_4);
+
+let arr167_5 = [];
+for (let i = 1; i <= 10; i++) {
+    arr167_5.push(i);
+}
+console.log(arr167_5);
+
+let arr167_6 = [5, -3, 7, 12, -1, 0, 9];
+for (let elem of arr167_6) {
+    if (elem > 0 && elem < 10) {
+        console.log(elem);
+    }
+}
+
+let arr167_7 = [1, 2, 3, 4, 5];
+let found167_7 = false;
+for (let elem of arr167_7) {
+    if (elem === 5) {
+        found167_7 = true;
+        break;
+    }
+}
+console.log(found167_7 ? "Элемент со значением 5 найден." : "Элемент со значением 5 не найден.");
+
+let arr167_8 = [1, 2, 3, 4, 5];
+let sum167_8 = 0;
+for (let elem of arr167_8) {
+    sum167_8 += elem;
+}
+console.log(sum167_8);
+
+let arr167_9 = [1, 2, 3];
+let sumOfSquares167_9 = 0;
+for (let elem of arr167_9) {
+    sumOfSquares167_9 += elem * elem;
+}
+console.log(sumOfSquares167_9);
+
+let arr167_10 = [1, 2, 3, 4, 5];
+let sum167_10 = 0;
+for (let elem of arr167_10) {
+    sum167_10 += elem;
+}
+let average167_10 = sum167_10 / arr167_10.length;
+console.log(average167_10);
+
+function factorial(n) {
+  let result167_11 = 1;
+  for (let i = 2; i <= n; i++) {
+      result167_11 *= i;
+  }
+  return result167_11;
+}
+console.log(factorial(10));
+
+let arr167_12 = [];
+for (let i = 10; i >= 1; i--) {
+    arr167_12.push(i);
+}
+console.log(arr167_12);
+
+let arr167_13 = [-1, -2, 3, -4, 5];
+let positiveSum167_13 = 0;
+for (let elem of arr167_13) {
+    if (elem > 0) {
+        positiveSum167_13 += elem;
+    }
+}
+console.log(positiveSum167_13);
+
+let arr167_14 = [10, 20, 30, 50, 235, 3000];
+for (let elem of arr167_14) {
+    if (String(elem)[0] === '1' || String(elem)[0] === '2' || String(elem)[0] === '5') {
+        console.log(elem);
+    }
+}
+
+let arr167_15 = [1, 2, 3, 4];
+for (let i = arr167_15.length - 1; i >= 0; i--) {
+    console.log(arr167_15[i]);
+}
+
+let arr167_16 = [0, 1, 2, 3, 4];
+for (let i = 0; i < arr167_16.length; i++) {
+    if (arr167_16[i] === i) {
+        console.log(arr167_16[i]);
+    }
+}
+
+let arr167_17 = [1, 2, 3];
+for (let elem of arr167_17) {
+    document.write(elem + '<br>');
+}
+
+let arr167_18 = [1, 2, 3];
+for (let elem of arr167_18) {
+    document.write('<p>' + elem + '</p>');
+}
+
+let daysOfWeek = ['Понедельник', 'Вторник', 'Среда', 'Четверг', 'Пятница', 'Суббота', 'Воскресенье'];
+for (let day of daysOfWeek) {
+  if (day === 'Суббота' || day === 'Воскресенье') {
+    document.write('<b>' + day + '</b><br>');
+} else {
+    document.write(day + '<br>');
+}
+}
+
+let daysOfWeek_20 = ['Понедельник', 'Вторник', 'Среда', 'Четверг', 'Пятница', 'Суббота', 'Воскресенье'];
+let currentDayIndex_20 = new Date().getDay();   
+for (let i = 0; i < daysOfWeek_20.length; i++) {
+    if (i === currentDayIndex_20) {
+        document.write('<i>' + daysOfWeek_20[i] + '</i><br>');
+    } else {
+        document.write(daysOfWeek_20[i] + '<br>');
+    }
+}
+
+let obj_emp167 = {
+  employee1: 100,
+  employee2: 200,
+  employee3: 300,
+  employee4: 400,
+  employee5: 500,
+  employee6: 600,
+  employee7: 700,
+};
+for (let key in obj_emp167) {
+  obj_emp167[key] *= 1.1;
+}
+console.log(obj_emp167);
+// 22
+for (let key in obj_emp167) {
+  if (obj_emp167[key] <= 400) {
+      obj_emp167[key] *= 1.1;
+  }
+}
+console.log(obj_emp167);
+
+let arr1_167_23 = [1, 2, 3, 4, 5];
+let arr2_167_23 = [6, 7, 8, 9, 10];
+let newObj_167_23 = {};
+for (let i = 0; i < arr1_167_23.length; i++) {
+    newObj_167_23[arr1_167_23[i]] = arr2_167_23[i];
+}
+console.log(newObj_167_23);
+
+let obj167_24 = {1: 6, 2: 7, 3: 8, 4: 9, 5: 10};
+let sumKeys = Object.keys(obj167_24).reduce((sum167_24, key167_24) => sum167_24 + Number(key167_24), 0);
+let sumValues = Object.values(obj167_24).reduce((sum167_24, value167_24) => sum167_24 + value167_24, 0);
+console.log(sumKeys / sumValues);
+
+
+
+let obj167_25 = {'a': 1, 'b': 2, 'c': 3, 'd': 4, 'e': 5};
+
+let keysArray167_25 = Object.keys(obj167_25);
+let valuesArray167_25 = Object.values(obj167_25);
+
+console.log(keysArray167_25);  
+console.log(valuesArray167_25);
+
+
+let obj167_26 = {
+  1: 125,
+  2: 225,
+  3: 128,
+  4: 356,
+  5: 145,
+  6: 281,
+  7: 452,
+};
+let newArr167_26 = Object.values(obj167_26).filter(value167_26 => String(value167_26).startsWith('1') || String(value167_26).startsWith('2'));
+console.log(newArr167_26);
+
+
+let arr167_27 = ['a', 'b', 'c', 'd', 'e'];
+
+let newObj167_27 = {};
+arr167_27.forEach((value167_27, index167_27) => {
+    newObj167_27[index167_27 + 1] = value167_27;
+});
+
+console.log(newObj167_27);
+
+
+let arr167_28 = ['a', 'b', 'c', 'd', 'e'];
+let newObj167_28 = {};
+arr167_28.forEach((value167_28, index167_28) => {
+    newObj167_28[value167_28] = index167_28 + 1;
+});
+
+console.log(newObj167_28);
