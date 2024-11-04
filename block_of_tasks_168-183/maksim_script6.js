@@ -853,3 +853,12 @@ for (let key in obj177_2) {
 }
 
 console.log(sum177_2);
+
+// глава 178
+
+let students178_1 = {
+	'group1': ['name11', 'name12', 'name13'],
+	'group2': ['name21', 'name22', 'name23'],
+	'group3': ['name31', 'name32', 'name33'],
+};
+console.log(students178_1['group3'][0]);
