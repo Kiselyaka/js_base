@@ -1168,3 +1168,32 @@ let obj181_6 = {
 
 let key1_6 = 'key2';
 console.log(obj181_6[key1_6]['key4']);
+
+// глава 182
+
+let employees182 = [
+	{
+		name: 'name1',
+		salary: 300,
+		age: 28,
+	},
+	{
+		name: 'name2',
+		salary: 400,
+		age: 29,
+	},
+	{
+		name: 'name3',
+		salary: 500,
+		age: 30,
+	},
+];
+
+employees182.push({
+name: 'name4',
+salary: '600',
+age: '40'
+});
+
+console.log(employees182);
+
