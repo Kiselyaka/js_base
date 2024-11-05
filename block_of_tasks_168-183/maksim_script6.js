@@ -485,7 +485,7 @@ for (let i = 0; i < 3; i++) {
   
   for (let j = 0; j < 3; j++) {
     arr175_7[i][j] = k175_7;
-    k++;
+    k175_7++;
   }
 }
 
@@ -554,12 +554,12 @@ for (let i = 0; i < 3; i++) {
   arr175_9[i] = [];
   
   for (let j = 0; j < 3; j++) {
-    arr[i][j] = k;
-    k++; // Убедитесь, что k увеличивается на каждой итерации
+    arr175_9[i][j] = k175_9;
+    k175_9++; // Убедитесь, что k увеличивается на каждой итерации
   }
 }
 
-console.log(arr);
+console.log(arr175_9);
 
 
 // №10⊗jsPmMuAFO
@@ -1046,3 +1046,125 @@ for (let employee of employees180_3) {
 }
 
 console.log('Сумма зарплат работников старше или равных 30 лет: ' + totalSalaryAbove30_1803);
+
+// глава 181
+
+let months181_1 = {
+	'ru': [
+		'январь',
+		'февраль',
+		'март',
+		'апрель',
+		'май',
+		'июнь',
+		'июль',
+		'август',
+		'сентябрь',
+		'октябрь',
+		'ноябрь',
+		'декабрь',
+	],
+	'en': [
+		'january',
+		'february',
+		'march',
+		'april',
+		'may',
+		'june',
+		'july',
+		'august',
+		'september',
+		'october',
+		'november',
+		'december',
+	],
+};
+
+let lang = 'ru'; // может быть или 'ru' или 'en'
+let month = 5;   // число от 0 до 11
+
+console.log(months181_1[lang][month]);
+
+let affairs181_2 = {
+	'2018': {
+		11: {
+			29: ['дело111', 'дело112', 'дело113'],
+			30: ['дело121', 'дело122', 'дело123'],
+		},
+		12: {
+			30: ['дело211', 'дело212', 'дело213'],
+			31: ['дело221', 'дело222', 'дело223'],
+		},
+	},
+	'2019': {
+		12: {
+			29: ['дело311', 'дело312', 'дело313'],
+			30: ['дело321', 'дело322', 'дело323'],
+			31: ['дело331', 'дело332', 'дело333'],
+		}
+	},
+}
+
+let year = '2018';
+let months181_2 = 11;
+let day = 30;
+console.log(affairs181_2[year][months181_2][day]);
+
+let obj181_3 = {
+	key1: {
+		key2: '12',
+		key3: '13',
+	},
+	key2: {
+		key4: '24',
+		key5: '25',
+	},
+}
+
+let key1 = 'key2';
+let key2 = 'key4';
+console.log(obj181_3[key1][key2]);
+
+let obj181_4 = {
+	key1: {
+		key2: '12',
+		key3: '13',
+	},
+	key2: {
+		key4: '24',
+		key5: '25',
+	},
+}
+
+let key1_4 = 'key2';
+let key2_4 = 'key4';
+console.log(obj181_4.key1['key2']);
+
+let obj181_5 = {
+	key1: {
+		key2: '12',
+		key3: '13',
+	},
+	key2: {
+		key4: '24',
+		key5: '25',
+	},
+}
+
+let key1_5 = 'key2';
+let key2_5 = 'key4';
+console.log(obj181_5[key1_5][key2_5]);
+
+let obj181_6 = {
+	key1: {
+		key2: '12',
+		key3: '13',
+	},
+	key2: {
+		key4: '24',
+		key5: '25',
+	},
+}
+
+let key1_6 = 'key2';
+console.log(obj181_6[key1_6]['key4']);
