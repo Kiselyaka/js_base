@@ -90,3 +90,19 @@ let word1_3 = str190_3.slice(2, 5);
 let word2_3 = str190_3.slice(6, 16); 
 console.log(word1_3); 
 console.log(word2_3);
+
+// глава 191
+
+const url = "http://example.com";
+if (url.startsWith("http://")) {
+    console.log("Строка начинается с 'http://'");
+} else {
+    console.log("Строка не начинается с 'http://'");
+}
+
+const fileName = "index.html";
+if (fileName.endsWith(".html")) {
+    console.log("Строка заканчивается на '.html'");
+} else {
+    console.log("Строка не заканчивается на '.html'");
+}
