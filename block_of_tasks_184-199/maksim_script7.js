@@ -126,3 +126,19 @@ console.log(arr193_2);
 let arr193_3 = [1, 2, 3, 4, 5];
 let str193_3 = arr193_3.join('-');
 console.log(str193_3);
+
+// глава 194
+
+let arr194_1 = [1, 2, 3];
+console.log(arr194_1[0]);
+
+let arr194_2 = [1, 2, 3];
+console.log(arr194_2[arr194_2.length - 1]);
+
+let arr194_3 = [1, 2, 3];
+arr194_3.push(4, 5, 6);
+console.log(arr194_3);
+
+let arr194_4 = [1, 2, 3];
+arr194_4.unshift(4, 5, 6);
+console.log(arr194_4);
