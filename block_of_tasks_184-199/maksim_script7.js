@@ -168,3 +168,10 @@ arr196_3.splice(1, 0, 'a', 'b');
 arr196_3.splice(6, 0, 'c'); 
 arr196_3.splice(8, 0, 'e'); 
 console.log(arr196_3); 
+
+// глава 197
+
+let arr197 = [1, 2, 3, 4, 5];
+let res197 = arr197.includes(3);
+
+console.log(res197);
