@@ -39,3 +39,10 @@ let result2 = {
 };
 
 console.log(result2);
+
+// глава 186
+
+let obj186 = [4, -2, 5, 19, -130, 0, 10];
+console.log(Math.max(...obj186));
+console.log(Math.min(...obj186));
+
