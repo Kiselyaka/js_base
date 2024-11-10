@@ -70,3 +70,23 @@ console.log(str189_1.toUpperCase());
 
 let str189_2 = 'JS';
 console.log(str189_2.toLowerCase());
+
+// глава 190
+
+let str190_1 = 'я учу javascript!';
+let word1_1 = str190_1.substr(2, 3); 
+let word2_1 = str190_1.substr(6, 10);
+console.log(word1_1); 
+console.log(word2_1); 
+
+let str190_2 = 'я учу javascript!';
+let word1_2 = str190_2.substring(2, 5); 
+let word2_2 = str190_2.substring(6, 16); 
+console.log(word1_2); 
+console.log(word2_2);  
+
+let str190_3 = 'я учу javascript!';
+let word1_3 = str190_3.slice(2, 5); 
+let word2_3 = str190_3.slice(6, 16); 
+console.log(word1_3); 
+console.log(word2_3);
