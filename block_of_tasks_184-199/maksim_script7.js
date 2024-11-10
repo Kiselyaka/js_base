@@ -181,3 +181,51 @@ let obj198 = {'a': 1, 'b': 2, 'c': 3};
 console.log(Object.keys(obj198));
 
 // глава 199
+let num199_1 = 12345;
+let arr199_1 = String(num199_1).split('');
+
+let sum199_1 = 0;
+for (let digit of arr199_1) {
+  sum199_1 += Number(digit); 
+}
+console.log(sum199_1); 
+
+
+let num199_2 = 12345;
+let arr199_2 = String(num199_2).split('');
+
+let sum199_2 = 0;
+for (let digit of arr199_2) {
+  sum199_2 += Number(digit); 
+}
+console.log(sum199_2); 
+
+
+let num199_3 = 12345;
+let arr199_3 = String(num199_3).split('');
+
+let sum199_3 = 0;
+for (let digit of arr199_3) {
+  sum199_3 += Number(digit); 
+}
+console.log(sum199_3);
+
+
+let num199_4 = 12345;
+let arr199_4 = String(num199_4).split('');
+
+let sum199_4 = 0;
+for (let digit of arr199_4) {
+  sum199_4 += Number(digit); 
+}
+console.log(sum199_4); 
+
+
+let num199_5 = 12345;
+let arr199_5 = String(num199_5).split('');
+
+let prod199_5 = 1;
+for (let digit of arr199_5) {
+  prod199_5 *= Number(digit); 
+}
+console.log(prod199_5);
