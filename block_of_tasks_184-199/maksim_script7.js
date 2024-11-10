@@ -60,5 +60,13 @@ for (let i = 0; i < 10; i++) {
 console.log(randomArray);
 
 // глава 188
+
 let a = -4, b = -65;
 console.log(Math.abs(b-a));
+
+// глава 189
+let str189_1 = 'js';
+console.log(str189_1.toUpperCase());
+
+let str189_2 = 'JS';
+console.log(str189_2.toLowerCase());
