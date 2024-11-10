@@ -58,3 +58,7 @@ for (let i = 0; i < 10; i++) {
     randomArray.push(Math.floor(Math.random() * 100) + 1);
 }
 console.log(randomArray);
+
+// глава 188
+let a = -4, b = -65;
+console.log(Math.abs(b-a));
