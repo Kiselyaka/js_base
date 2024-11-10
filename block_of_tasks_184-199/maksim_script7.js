@@ -122,3 +122,7 @@ console.log(arr193_1);
 let str193_2 = '12345';
 let arr193_2 = str193_2.split('');
 console.log(arr193_2);
+
+let arr193_3 = [1, 2, 3, 4, 5];
+let str193_3 = arr193_3.join('-');
+console.log(str193_3);
