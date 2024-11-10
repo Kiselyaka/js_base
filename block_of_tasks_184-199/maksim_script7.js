@@ -46,3 +46,15 @@ let obj186 = [4, -2, 5, 19, -130, 0, 10];
 console.log(Math.max(...obj186));
 console.log(Math.min(...obj186));
 
+// глава 187
+
+function getRandomInt(min, max) {
+	return Math.floor(Math.random() * (max - min + 1)) + min;
+}
+console.log(getRandomInt(1, 100));
+
+let randomArray = [];
+for (let i = 0; i < 10; i++) {
+    randomArray.push(Math.floor(Math.random() * 100) + 1);
+}
+console.log(randomArray);
