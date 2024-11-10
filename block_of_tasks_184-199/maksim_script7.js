@@ -142,3 +142,13 @@ console.log(arr194_3);
 let arr194_4 = [1, 2, 3];
 arr194_4.unshift(4, 5, 6);
 console.log(arr194_4);
+
+// глава 195
+
+let arr195_1 = [1, 2, 3, 4, 5];
+let newArr = arr195_1.slice(0, 3);
+console.log(newArr);
+
+let arr195_2 = [1, 2, 3, 4, 5];
+let newArr195_2 = arr195_2.slice(3);
+console.log(newArr195_2);
