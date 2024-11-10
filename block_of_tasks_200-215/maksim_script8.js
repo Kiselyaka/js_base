@@ -31,3 +31,10 @@ function plus_or_minus(number_pm) {
     }
 }
 plus_or_minus(-23);
+
+// глава 202
+
+function func_sum(num1, num2, num3) {
+	console.log(num1 + num2 + num3);
+}
+func_sum(1, 2, 3);
