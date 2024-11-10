@@ -1,13 +1,17 @@
 "use strict"
-// глава 183
+// глава 184
 
 console.log(Math.pow(2, 10));
 
 console.log(Math.sqrt(245));
 
-let arr183 = [4, 2, 5, 19, 13, 0, 10];
-let sum183 = 0; 
-for (let index = 0; index < arr183.length; index++) {
-    let element = Math.pow(arr183[index], 3);
-    console.log(sum183);
+let arr184 = [4, 2, 5, 19, 13, 0, 10];
+let sumOfCubes = 0;
+
+for (let i = 0; i < arr184.length; i++) {
+    sumOfCubes += Math.pow(arr184[i], 3);
 }
+
+let result184 = Math.sqrt(sumOfCubes);
+console.log(result184);
+// 
