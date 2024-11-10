@@ -152,3 +152,19 @@ console.log(newArr);
 let arr195_2 = [1, 2, 3, 4, 5];
 let newArr195_2 = arr195_2.slice(3);
 console.log(newArr195_2);
+
+// глава 196
+
+let arr196_1 = [1, 2, 3, 4, 5];
+arr196_1.splice(1, 2); 
+console.log(arr196_1);
+
+let arr196_2 = [1, 2, 3, 4, 5];
+arr196_2.splice(3, 0, 'a', 'b', 'c'); // Вставляем элементы 'a', 'b', 'c' начиная с индекса 3
+console.log(arr196_2);
+
+let arr196_3 = [1, 2, 3, 4, 5];
+arr196_3.splice(1, 0, 'a', 'b'); 
+arr196_3.splice(6, 0, 'c'); 
+arr196_3.splice(8, 0, 'e'); 
+console.log(arr196_3); 
