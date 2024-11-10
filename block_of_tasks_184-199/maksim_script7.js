@@ -106,3 +106,12 @@ if (fileName.endsWith(".html")) {
 } else {
     console.log("Строка не заканчивается на '.html'");
 }
+// глава 192
+
+let str192 = '1-2-3-4-5';
+let res192 = str192.replace('-', '.');
+
+console.log(res192);
+
+// глава 193
+
