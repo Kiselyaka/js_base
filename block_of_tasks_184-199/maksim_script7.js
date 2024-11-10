@@ -115,3 +115,10 @@ console.log(res192);
 
 // глава 193
 
+let str193_1 = '1-2-3-4-5';
+let arr193_1 = str193_1.split('-');
+console.log(arr193_1);
+
+let str193_2 = '12345';
+let arr193_2 = str193_2.split('');
+console.log(arr193_2);
