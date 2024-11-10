@@ -173,5 +173,11 @@ console.log(arr196_3);
 
 let arr197 = [1, 2, 3, 4, 5];
 let res197 = arr197.includes(3);
-
 console.log(res197);
+
+// глава 198
+
+let obj198 = {'a': 1, 'b': 2, 'c': 3};
+console.log(Object.keys(obj198));
+
+// глава 199
