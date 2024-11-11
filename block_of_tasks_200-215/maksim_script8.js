@@ -104,3 +104,30 @@ let res1_205 = sqrt(3);
 let res2_205 = sqrt(4); 
 let sum205 = Math.floor(res1_205 + res2_205); 
 console.log(sum205);
+
+// глава 206
+function sqrt206_1(num) {
+    return Math.sqrt(num);
+}
+function round206_1(num) {
+    return num.toFixed(3);
+}
+let result206_1 = round206_1(sqrt206_1(2));
+console.log(result206_1);
+
+
+function sqrt206_2(num) {
+    return Math.sqrt(num);
+}
+function sum206_2(num1, num2, num3) {
+    return num1 + num2 + num3;
+}
+let res_206_2 = sum206_2(sqrt206_2(2), sqrt206_2(3), sqrt206_2(4));
+console.log(res_206_2);
+
+
+function round206_3(num) {
+    return num.toFixed(3);
+}
+let res206_3 = round206_3(sum206_2(sqrt206_2(2), sqrt206_2(3), sqrt206_2(4)));
+console.log(res206_3);
