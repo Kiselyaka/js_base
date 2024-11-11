@@ -295,3 +295,124 @@ console.log(hasConsecutiveDuplicates([1, 2, 3, 4, 5])); // false
 
 // глава 112
 
+// №1⊗jsPmFBLO
+
+// Дана следующая функция:
+
+// function func(a, b) {
+// 	if (a == b) {
+// 		return true;
+// 	} else {
+// 		return false;
+// 	}
+// }
+// Перепишите ее код в сокращенной форме согласно изученной теории.
+
+function func212_1(a, b) {
+	return a == b;
+}
+
+// №2⊗jsPmFBLO
+
+// Дана следующая функция:
+
+// function func(a, b) {
+// 	if (a != b) {
+// 		return true;
+// 	} else {
+// 		return false;
+// 	}
+// }
+// Перепишите ее код в сокращенной форме согласно изученной теории.
+
+function func212_2(a, b) {
+	a != b;
+}
+
+// №3⊗jsPmFBLO
+
+// Дана следующая функция:
+
+// function func(a, b) {
+// 	if (a + b >= 10) {
+// 		return true;
+// 	} else {
+// 		return false;
+// 	}
+// }
+// Перепишите ее код в сокращенной форме согласно изученной теории.
+
+function func212_3(a, b) {
+	return a + b >= 10;
+}
+
+// №4⊗jsPmFBLO
+
+// Дана следующая функция:
+
+// function func(num) {
+// 	if (num >= 0) {
+// 		return true;
+// 	} else {
+// 		return false;
+// 	}
+// }
+// Перепишите ее код в сокращенной форме согласно изученной теории.
+
+function func212_4(num) {
+	num >= 0;
+}
+	
+// глава 113
+
+function average(arr) {
+    if (arr.length === 0) {
+        return 0; // или можно выбросить ошибку
+    }
+    
+    let sum = 0;
+    for (let elem of arr) {
+        sum += elem;
+    }
+    
+    return sum / arr.length;
+}
+
+// Примеры использования:
+console.log(average([1, 2, 3, 4])); // 2.5
+console.log(average([])); // 0
+
+function getAverageRatio(arr1, arr2) {
+    if (arr1.length === 0 || arr2.length === 0) {
+        return 0; // или можно выбросить ошибку
+    }
+    
+    let sum1 = 0;
+    for (let elem of arr1) {
+        sum1 += elem;
+    }
+    
+    let sum2 = 0;
+    for (let elem of arr2) {
+        sum2 += elem;
+    }
+    
+    return sum1 / sum2;
+}
+
+// Примеры использования:
+console.log(getAverageRatio([1, 2, 3], [4, 5, 6])); // 0.5
+console.log(getAverageRatio([], [4, 5, 6])); // 0
+
+function getProduct(arr) {
+    let product = 1;
+    for (let elem of arr) {
+        product *= elem;
+    }
+    
+    return product;
+}
+
+// Примеры использования:
+console.log(getProduct([1, 2, 3, 4])); // 24
+console.log(getProduct([2, 3, 5])); // 30
