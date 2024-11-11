@@ -230,3 +230,28 @@ function divideUntilLessThanTen(num) {
 
 let result209 = divideUntilLessThanTen(100);
 console.log(result209);
+
+// глава 210
+
+// Дана следующая функция:
+
+// function func(num1, num2) {
+// 	let res;
+	
+// 	if (num1 > 0 && num2 > 0) {
+// 		res = num1 * num2;
+// 	} else {
+// 		res = num1 - num2;
+// 	}
+	
+// 	return res;
+// }
+
+// console.log(func(3, 4));
+// Перепишите ее в сокращенной форме согласно изученной теории
+
+function func210_1(num1, num2) {
+    return (num1 > 0 && num2 > 0) ? num1 * num2 : num1 - num2;
+}
+
+console.log(func210_1(3, 4)); 
