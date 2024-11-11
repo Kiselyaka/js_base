@@ -234,3 +234,103 @@
 // console.log(num);
 
 // Ответ: 2
+
+// глава 220
+
+// №1⊗jsPmFVGVP
+
+// Определите, не запуская код, что выведется в консоль:
+
+// function func(localNum) {
+// 	console.log(localNum);
+// }
+
+// func(1);
+
+// Ответ: 1
+
+// №2⊗jsPmFVGVP
+
+// Определите, не запуская код, что выведется в консоль:
+
+// function func(localNum) {
+// 	console.log(localNum);
+// }
+
+// let num = 1;
+// func(num);
+
+// Ответ: 1
+
+// №3⊗jsPmFVGVP
+
+// Определите, не запуская код, что выведется в консоль:
+
+// function func(localNum) {
+// 	console.log(localNum);
+// }
+
+// let num = 1;
+// func(num);
+// num = 2;
+
+// Ответ: 1
+
+// №4⊗jsPmFVGVP
+
+// Определите, не запуская код, что выведется в консоль:
+
+// let num = 1;
+
+// function func(localNum) {
+// 	console.log(localNum);
+// }
+
+// num = 2;
+// func(num);
+
+// Ответ: 2
+
+// №5⊗jsPmFVGVP
+
+// Определите, не запуская код, что выведется в консоль:
+
+// function func(localNum) {
+// 	localNum = 2;
+// }
+
+// let num = 1;
+// func(num);
+// console.log(num);
+
+// Ответ: 1
+
+// №6⊗jsPmFVGVP
+
+// Определите, не запуская код, что выведется в консоль:
+
+// function func(localNum) {
+// 	num = 2;
+// }
+
+// let num = 1;
+// func(num);
+// console.log(num);
+
+// Ответ: 2
+
+// №7⊗jsPmFVGVP
+
+// Определите, не запуская код, что выведется в консоль:
+
+// function func(localNum) {
+// 	let num = 2;
+// }
+
+// let num = 1;
+// func(num);
+// console.log(num);
+
+// Ответ: 1
+
+// 
