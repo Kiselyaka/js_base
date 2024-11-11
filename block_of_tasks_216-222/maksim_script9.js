@@ -377,3 +377,89 @@
 
 // Ответ: 1
 
+// глава 222
+
+// №1⊗jsPmFVPO
+
+// Определите, не запуская код, что выведется в консоль:
+
+// function func(obj) {
+// 	obj.a = '!';
+// }
+
+// let obj = {a: 1, b: 2, c: 3};
+// func(obj);
+// console.log(obj);
+
+// Ответ: { a: '!', b: 2, c: 3 }
+
+// №2⊗jsPmFVPO
+
+// Определите, не запуская код, что выведется в консоль:
+
+// function func(arg) {
+// 	arg = '!';
+// }
+
+// let obj = {a: 1, b: 2, c: 3};
+// func(obj.a);
+// console.log(obj);
+
+// Ответ: { a: 1, b: 2, c: 3 }
+
+// №3⊗jsPmFVPO
+
+// Определите, не запуская код, что выведется в консоль:
+
+// function func(obj) {
+// 	obj = '!';
+// }
+
+// let obj = {a: 1, b: 2, c: 3};
+// func(obj.a);
+// console.log(obj);
+
+// Ответ: { a: 1, b: 2, c: 3 }
+
+// №4⊗jsPmFVPO
+
+// Определите, не запуская код, что выведется в консоль:
+
+// function func(arr) {
+// 	arr.splice(1, 1);
+// }
+
+// let arr = [1, 2, 3];
+// func(arr);
+// console.log(arr);
+
+// Ответ: [ 1, 3 ]
+
+// №5⊗jsPmFVPO
+
+// Определите, не запуская код, что выведется в консоль:
+
+// function func(arr) {
+// 	arr.slice(1, 1);
+// }
+
+// let arr = [1, 2, 3];
+// func(arr);
+// console.log(arr);
+
+// Ответ: [ 1, 2, 3 ]
+
+// №6⊗jsPmFVPO
+
+// Определите, не запуская код, что выведется в консоль:
+
+// function func(arr) {
+// 	let newArr = arr;
+// 	newArr[0] = '!';
+// }
+
+// let arr = [1, 2, 3];
+// func(arr);
+// console.log(arr);
+
+// Ответ: [ '!', 2, 3 ]
