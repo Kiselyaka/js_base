@@ -293,3 +293,5 @@ function hasConsecutiveDuplicates(arr) {
 console.log(hasConsecutiveDuplicates([1, 2, 3, 3, 4])); // true
 console.log(hasConsecutiveDuplicates([1, 2, 3, 4, 5])); // false
 
+// глава 112
+
