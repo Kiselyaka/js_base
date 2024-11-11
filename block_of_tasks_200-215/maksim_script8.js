@@ -253,5 +253,43 @@ console.log(result209);
 function func210_1(num1, num2) {
     return (num1 > 0 && num2 > 0) ? num1 * num2 : num1 - num2;
 }
-
 console.log(func210_1(3, 4)); 
+
+// глава 111
+
+function areAllEven(arr) {
+    for (let elem of arr) {
+        if (elem % 2 !== 0) {
+            return false;
+        }
+    }
+    return true;
+}
+console.log(areAllEven([2, 4, 6, 8])); // true
+console.log(areAllEven([2, 3, 6, 8])); // false
+
+
+function areAllDigitsOdd(num) {
+    let digits = num.toString().split('');
+    for (let digit of digits) {
+        if (parseInt(digit) % 2 === 0) {
+            return false;
+        }
+    }
+    return true;
+}
+console.log(areAllDigitsOdd(13579)); // true
+console.log(areAllDigitsOdd(13578)); // false
+
+
+function hasConsecutiveDuplicates(arr) {
+    for (let i = 0; i < arr.length - 1; i++) {
+        if (arr[i] === arr[i + 1]) {
+            return true;
+        }
+    }
+    return false;
+}
+console.log(hasConsecutiveDuplicates([1, 2, 3, 3, 4])); // true
+console.log(hasConsecutiveDuplicates([1, 2, 3, 4, 5])); // false
+
