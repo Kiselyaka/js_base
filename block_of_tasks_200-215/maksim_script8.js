@@ -215,4 +215,18 @@ function func208(num)
 	}
     return sum208;
 }
-console.log( func(5) );
+console.log( func208(5) );
+
+// глава 209
+
+function divideUntilLessThanTen(num) {
+    let iterations = 0;
+    while (num >= 10) {
+        num /= 2;
+        iterations++;
+    }
+    return iterations;
+}
+
+let result209 = divideUntilLessThanTen(100);
+console.log(result209);
